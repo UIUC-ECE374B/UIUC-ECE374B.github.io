@@ -8,9 +8,9 @@ description: The OG graphing problem, we'll take a moment to discuss minimum spa
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2024-11-01
-link-questions: 
-link-solutions: 
+deliverydate: 2023-10-27
+link-questions: /materials/labs/lab18.pdf
+link-solutions: /materials/labs/lab18.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_6t3h4umk
 link-recording-ta:
 ---

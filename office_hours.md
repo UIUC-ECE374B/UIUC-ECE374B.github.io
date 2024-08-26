@@ -36,51 +36,39 @@ Obviously this course isn't active and there aren't any discussion sections or o
   <tr>
     <td> BYA </td>
     <td> 09:00AM - 09:50AM </td>
-    <td>  </td>
+    <td> Jack Chen, Yueyi Shen </td>
     <td> 2017 ECEB </td>
   </tr>
   <tr>
     <td> BYB </td>
     <td> 10:00AM - 10:50AM </td>
-    <td>  </td>
-    <td> 4070 ECEB </td>
+    <td> Haoyuan You </td>
+    <td> 0216 Siebel </td>
   </tr>
   <tr>
     <td> BYC </td>
     <td> 11:00AM - 11:50AM </td>
-    <td>  </td>
+    <td> Sindhu Vydana </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYD </td>
     <td> 12:00PM - 12:50PM </td>
-    <td>  </td>
+    <td> Sandhya Perumenki </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYE </td>
     <td> 01:00PM - 01:50PM </td>
-    <td>  </td>
+    <td> Weiyang Wang, Sumedh Vemuganti </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYF </td>
     <td> 02:00PM - 02:50PM </td>
-    <td>  </td>
+    <td> Sung Woo Jeon </td>
     <td> 4070 ECEB </td>
   </tr>
-  <tr>
-    <td> BYG </td>
-    <td> 03:00PM - 03:50PM </td>
-    <td>  </td>
-    <td> 4070 ECEB </td>
-  </tr>  
-  <tr>
-    <td> BYH </td>
-    <td> 04:00PM - 04:50PM </td>
-    <td>  </td>
-    <td> 2015 ECEB </td>
-  </tr>    
 </table>
 &nbsp;
 

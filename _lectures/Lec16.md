@@ -9,10 +9,10 @@ people:
   - gautham
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-10-24
-link-slides: 
-link-scribbles: 
-link-recording: 
+deliverydate: 2023-10-19
+link-slides: /materials/lecture_slides/lec17.pdf
+link-scribbles: /materials/lecture_slides/lec17_scribbles_sp23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_t85q7ijk
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr1hKu0ou-YGK-qzLOR-ICvL&si=ozg0MZYdiPEF2QrF
 ---
 

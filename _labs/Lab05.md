@@ -8,9 +8,9 @@ description: Not all languages are regular. We practice a simple proof technique
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2024-09-13
-link-questions: 
-link-solutions: 
+deliverydate: 2023-09-08
+link-questions: /materials/labs/lab5-fooling.pdf
+link-solutions: /materials/labs/lab5-fooling.pdf
 link-recording:
 link-recording-ta:
 ---

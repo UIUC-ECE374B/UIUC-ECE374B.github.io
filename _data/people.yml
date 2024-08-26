@@ -8,25 +8,15 @@ kani:
     bio: Teaching Assistant Professor 
     OHs: 
       OH1:
-        time-start: "17:00"
-        time-end: "18:00"
+        time-start: "15:00"
+        time-end: "16:00"
+        day: Tuesday
+        location: 1039 CSL
+      OH2:
+        time-start: "15:00"
+        time-end: "16:00"
         day: Thursday
-        location: 
-
-ivan:
-    display_name: "Ivan Abraham"
-    netid: itabrah2
-    webpage: "https://itabrah2.web.engr.illinois.edu/"
-    github: 
-    role: faculty
-    image: /img/people/ivan.jpg
-    bio: Teaching Assistant Professor 
-    OHs: 
-    #   OH1:
-    #     time-start: "17:00"
-    #     time-end: "18:00"
-    #     day: Thursday
-    #     location:         
+        location: 1039 CSL
 
 sariel:     
     display_name: "Sariel Har-Peled"
@@ -54,7 +44,12 @@ andrew:
     role: faculty-alum
     image: /img/people/miller.png
     bio:  Associate Professor 
-
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Wednesday
+        location: 555 CSL
 
 chandra:     
     display_name: "Chandra Chekuri"
@@ -72,15 +67,15 @@ sungwoo:
     netid: sjeon12
     webpage: "https://www.linkedin.com/in/sung-woo-jeon-26a06524a/"
     github: al0wner
-    role: grad
+    role: grad-alum
     image: /img/people/sung.jpg
     bio: Graduate Teaching Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "15:00"
-    #     time-end: "16:00"
-    #     day: Wednesday
-    #     location: 2036 ECEB 
+      OH1:
+        time-start: "15:00"
+        time-end: "16:00"
+        day: Wednesday
+        location: 2036 ECEB 
       
 sindhu:
     display_name: "Sindhu Vydana"
@@ -90,7 +85,12 @@ sindhu:
     role: grad-alum
     image: /img/people/sindu.jpeg
     bio: Graduate Teaching Assistant
-
+    OHs: 
+      OH1:
+        time-start: "11:00"
+        time-end: "12:00"
+        day: Tuesday
+        location: 2036 ECEB  
 
 
 sandhya:
@@ -101,13 +101,19 @@ sandhya:
     role: grad-alum
     image: /img/people/sandhya.jpeg
     bio: Graduate Teaching Assistant
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Tuesday
+        location: 4036 ECEB
 
 sumedh:
     display_name: "Sumedh Vemuganti"
     netid: sumedh2-alum
     webpage: "https://www.linkedin.com/in/sumedh-vemu/"
     github: sumedh2
-    role: grad
+    role: grad-alum
     image: /img/people/sumedh.jpeg
     bio: Graduate Course Assistant
     # OHs: 
@@ -122,30 +128,30 @@ weiyang:
     netid: weiyang7
     webpage: ""
     github: willwwy
-    role: grad
+    role: grad-alum
     image: /img/people/weiyang.jpeg
     bio: Graduate Course Assistant
-    # OHs: 
-    #   OH1:
-    #     time-start: "17:00"
-    #     time-end: "18:00"
-    #     day: Wednesday
-    #     location: 2036 ECEB
+    OHs: 
+      OH1:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Wednesday
+        location: 2036 ECEB
 
 ziheng:
     display_name: "Ziheng (Jack) Chen"
     netid: zihengc2
     webpage: "https://www.linkedin.com/in/zihengjackchen"
     github: JackZihengChen
-    role: grad
+    role: grad-alum
     image: /img/people/ziheng.jpeg
     bio: Graduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "10:00"
-    #     time-end: "11:00"
-    #     day: Thursday
-    #     location: 4036 ECEB
+      OH1:
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Thursday
+        location: 4036 ECEB
 
 yueyi:
     display_name: "Yueyi Shen"
@@ -155,6 +161,12 @@ yueyi:
     role: grad-alum
     image: /img/people/yueyie.jpg
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Thursday
+        location: 4036 ECEB
 
 haoyuan:
     display_name: "Haoyuan You"
@@ -164,13 +176,19 @@ haoyuan:
     role: grad-alum
     image: /img/people/haoyuan.png
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "14:00"
+        time-end: "15:00"
+        day: Thursday
+        location: 3003 ECEB
 
 hongbo:
     display_name: "Hongbo Zheng"
     webpage: "https://www.linkedin.com/in/hongbo-zheng-b088581b6"
     netid: hongboz2
     github: 
-    role: grad
+    role: grad-alum
     image: /img/people/hongbo.jpeg
     bio: Graduate Course Assistant
 
@@ -179,7 +197,7 @@ neeraj:
     webpage: "https://neerajgangwar.com/"
     netid: gangwar2
     github: neerajgangwar
-    role: grad
+    role: grad-alum
     image: /img/people/neeraj.jpg
     bio: Graduate Course Assistant
 
@@ -188,7 +206,7 @@ suyuan:
     webpage: "https://www.linkedin.com/in/suyuanw8197a724a/"
     netid: suyuan2
     github: 
-    role: grad
+    role: grad-alum
     image: /img/people/suyuan.jpg
     bio: Graduate Course Assistant
 
@@ -197,20 +215,20 @@ owen:
     netid: jinyuxu2
     webpage: https://www.linkedin.com/in/owen-xu-38b097251/
     github: 112728430
-    role: grad
+    role: grad-alum
     image: /img/people/owen.jpg
     bio: Graduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "17:00"
-    #     day: Tuesday
-    #     location: 4036 ECEB  
-    #   OH2:
-    #     time-start: "17:00"
-    #     time-end: "18:00"
-    #     day: Thursday
-    #     location: 4036 ECEB
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Tuesday
+        location: 4036 ECEB  
+      OH2:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Thursday
+        location: 4036 ECEB
 
 
 
@@ -242,6 +260,12 @@ mikem:
     role: ugrad-alum
     image: /img/people/mike.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "12:00"
+        day: Monday
+        location: 3034 ECEB
 
 hamza:
     display_name: "Hamza Husain"
@@ -281,22 +305,22 @@ ved:
     netid: vedeti2
     webpage: https://www.linkedin.com/in/ved-eti/
     github: VedEti123
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/ved-eti.png
     bio: Undergraduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "12:00"
-    #     time-end: "14:00"
-    #     day: Monday
-    #     location: 3034 ECEB
+      OH1:
+        time-start: "12:00"
+        time-end: "14:00"
+        day: Monday
+        location: 3034 ECEB
 
 brian:
     display_name: "Brian Kim"
     netid: brianhk2
     webpage: https://www.linkedin.com/in/brian-kim-7a5116177/
     github: bkimk
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/briankim.png
     bio: Undergraduate Researcher
 
@@ -305,7 +329,7 @@ vishesh:
     netid: vprasad3
     webpage: ""
     github: VisheshP-29
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/visheh.png
     bio: Undergraduate Researcher
 
@@ -318,11 +342,11 @@ anirudh:
     image: /img/people/anirudh.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "18:00"
-    #     day: Monday
-    #     location: 3003 ECEB
+      OH1:
+        time-start: "16:00"
+        time-end: "18:00"
+        day: Monday
+        location: 3003 ECEB
 
 erin:
     display_name: "Erin Kim"
@@ -358,30 +382,30 @@ siddhant:
     netid: ssn5
     webpage: http://www.linkedin.com/in/siddhant-nanavati
     github: ssn5
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/siddhant.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "17:00"
-    #     time-end: "18:00"
-    #     day: Tuesday
-    #     location: 4036 ECEB
+      OH1:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Tuesday
+        location: 4036 ECEB
 
 chris:
     display_name: "Chris Deng"
     netid: zdeng14
     webpage: https://www.linkedin.com/in/zhiyuan-deng-61223b253/
     github: Chrizzel7
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/chris-deng.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "13:00"
-    #     time-end: "15:00"
-    #     day: Wednesday
-    #     location: 2036 ECEB
+      OH1:
+        time-start: "13:00"
+        time-end: "15:00"
+        day: Wednesday
+        location: 2036 ECEB
 
 ifesi:
     display_name: "Ifesi Onubogu"
@@ -561,6 +585,12 @@ junyeob:
     role: grad-alum
     image: /img/people/anon-male.jpg
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "15:00"
+        time-end: "16:00"
+        day: Friday
+        location: 239 ACL
 
 jinghan:
     display_name: "Jinghan Huang"
@@ -570,6 +600,13 @@ jinghan:
     role: grad-alum
     image: /img/people/jinghan.jpeg
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "09:00"
+        time-end: "12:00"
+        day: Friday
+        location: 239 ACL
+
 
 xiangcan:
     display_name: "Xiangcan Li"
@@ -615,13 +652,19 @@ kopinsky:
     role: ugrad-alum
     image: /img/people/kopinsky.jpeg
     bio: Graduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "16:00"
+        time-end: "18:00"
+        day: Friday
+        location: 435 MNTL
 
 pranav:
     display_name: "Pranav Gaka"
     webpage: "https://www.linkedin.com/in/pranavgaka/"
     netid: pgaka2
     github: psg319
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/pranav.png
     bio: Undergraduate Course Assistant
 
@@ -630,7 +673,7 @@ pratyush:
     netid: pthakur3
     webpage: "https://www.linkedin.com/in/pratyushthakur/"
     github: pratyush242
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/pratyush.png
     bio: Undergraduate Course Assistant
 
@@ -639,7 +682,7 @@ atharva:
     netid: atharva7
     webpage: "http://www.linkedin.com/in/atharvajain/"
     github: jainatharva21
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/atharva.jpg
     bio: Undergraduate Course Assistant
 
@@ -648,7 +691,7 @@ shreyas:
     netid: ssrir5
     webpage: "http://www.linkedin.com/in/sriram-shreyas"
     github: ssrir5
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/shreyas.jpg
     bio: Undergraduate Course Assistant
 
@@ -657,7 +700,7 @@ ericroth:
     netid: ericcr2
     webpage: "https://www.linkedin.com/in/eric-carl-roth/"
     github: frogmasta
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/eric.jpg
     bio: Undergraduate Course Assistant
 
@@ -666,7 +709,7 @@ williamou:
     netid: ou14
     webpage: "https://www.linkedin.com/in/william-ou-4734b6220/"
     github: WilliamOuJiatong
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/williamou.png
     bio: Undergraduate Course Assistant
 
@@ -675,7 +718,7 @@ terence:
     netid: terence6
     webpage: "https://www.linkedin.com/in/terence-zeng-/"
     github: terencezeng6
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/terence.jpg
     bio: Undergraduate Course Assistant
 
@@ -684,7 +727,7 @@ skylargao:
     netid: szgao2
     webpage: 
     github: 
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
 
@@ -693,7 +736,7 @@ kylechung:
     netid: kbchung2
     webpage: "https://www.linkedin.com/in/kyle-chung-a644b6231/"
     github: kyle11067
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/kylechung.jpg
     bio: Undergraduate Course Assistant
 
@@ -702,7 +745,7 @@ ben:
     netid: bdkim4
     webpage: https://www.linkedin.com/in/bkim34/
     # github: Chrizzel7
-    role: ugrad
+    role: ugrad-alum
     image: /img/people/ben.jpeg
     bio: Undergraduate Course Assistant
     OHs: 

@@ -9,10 +9,10 @@ people:
   - sindhu
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-09-12
-link-slides: 
-link-scribbles: 
-link-recording: 
+deliverydate: 2023-09-07
+link-slides: /materials/lecture_slides/lec5.pdf
+link-scribbles: /materials/lecture_slides/lec5_scribbles_fa23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_mftaxcm1
 pre-recording: 
 ---
 

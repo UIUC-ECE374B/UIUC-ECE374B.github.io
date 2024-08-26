@@ -8,10 +8,10 @@ description: Let's take a breather before the third midterm and simply go over s
 people:
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-12-03
-link-slides: 
-link-scribbles: 
-link-recording: 
+deliverydate: 2023-11-28
+link-slides: /materials/lecture_slides/lec25.pdf
+link-scribbles: /materials/lecture_slides/lec25_scribbles_sp23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_w7pjbbxx
 pre-recording: 
 ---
 
