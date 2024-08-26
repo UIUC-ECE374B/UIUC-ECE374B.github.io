@@ -9,10 +9,10 @@ people:
   - ifesi
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-11-21
-link-slides: 
-link-scribbles: 
-link-recording: 
+deliverydate: 2023-11-16
+link-slides: /materials/lecture_slides/lec24.pdf
+link-scribbles: /materials/lecture_slides/lec24_scribbles_sp23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_h9lyg6v5
 pre-recording: 
 ---
 

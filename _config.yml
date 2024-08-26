@@ -1,5 +1,5 @@
-name: ECE374-B Fall 2024
-url: https://ecealgo.com/fa24/
+name: ECE374-B Archive
+url: http://UIUC-ECE374B-FA23.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -44,7 +44,7 @@ roles:
 front_page_news: 1
 
 # Base pathname for links.
-base: '/fa24'
+base: ''
 
 # make pages for the colections
 collections:
@@ -60,7 +60,7 @@ collections:
 # Navigation bar links.
 navigation:
   - title: Home
-    link: 
+    link: /
   # - title: People
   #   link: /people.html
   - title: Lectures and Labs
@@ -75,4 +75,4 @@ navigation:
     link: /office_hours.html       
 
 #Variable that sets if this is a archived version of the site or not
-archived: false
+archived: true

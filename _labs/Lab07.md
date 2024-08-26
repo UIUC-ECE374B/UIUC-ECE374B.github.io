@@ -8,9 +8,9 @@ description: The most complex computing machine we know of, we'll go through exa
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2024-09-20
-link-questions: 
-link-solutions: 
+deliverydate: 2023-09-15
+link-questions: /materials/labs/lab07-tms.pdf
+link-solutions: /materials/labs/lab07-tms.pdf
 link-recording:
 link-recording-ta:
 ---

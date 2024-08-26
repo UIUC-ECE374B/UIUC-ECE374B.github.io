@@ -9,10 +9,10 @@ people:
   - nicholas
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-11-12
-link-slides: 
-link-scribbles: 
-link-recording: 
+deliverydate: 2023-11-07
+link-slides: /materials/lecture_slides/lec21.pdf
+link-scribbles: /materials/lecture_slides/lec21_scribbles_sp23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_1bnz6ltr
 pre-recording: https://www.youtube.com/playlist?list=PLmCFrqjQFNr2M11Vm4mHfmgc5LSFEp82y
 ---
 

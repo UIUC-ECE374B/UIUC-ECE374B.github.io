@@ -127,11 +127,11 @@ Besides the obvious "don't cheat" exam policies outlined in the [policies page](
 
 #### Exam Drop
 
-**Exam drop replaces conflict exams.** As per the grading policy, we have included one more exam than normal so that students can drop one exam grade each semester. This exam drop has the same purpose as the HW drop - to give students a buffer for those times when life gets in the way. **Should you get sick or maybe have a moment of panic** during one of the exams, you now have a drop so that one grade won't sink you.  
+**Exam drop replaces conflict exams.** As per the grading policy, we have included one more exam than normal so that students can drop one exam grade each semester. This exam drop has the same purpose as the HW drop - to give students a buffer for those times when life gets in the way. Should you get sick or maybe have a moment of panic during one of the exams, you now have a drop so that one grade won't sink you.  
 
-One critique of this policy is "what if you missed two exams?" I have taught this course more than ~8 times and I have yet to meet someone that missed two exams but had mastered the material. In the past three years that I have taught the course, every case of a student missing two or more exams is accompanied by the student performing in the bottom 10% of the exams they did take. This makes sense when you think about. Missing two exams is indicative of being absent for the majority of the semester which would in turn mean that the material was probably not mastered. 
+One critique of this policy is "what if you missed two exams?" I have taught this course more than 6+ times and I have yet to meet someone that missed two exams but had mastered the material. In the past three years that I have taught the course, every case of a student missing two or more exams is accompanied by the student performing in the bottom 10% of the exams they did take. This makes sense when you think about. Missing two exams is indicative of being absent for the majority of the semester which would in turn mean that the material was probably not mastered. 
 
-However, I will make a deal with anyone that is still worried about this. If you miss two exams due to *documented* emergencies but score in the top 20th percentile on the other two exams, I will substitute the lower completed exam grade for one of the missed exams. Note: you must have documentation of the emergency circumstances that required you to miss the two exams. You can email me about the specific requirements for this documentation.  
+However, I will make a deal with anyone that is still worried about this. If you miss two exams due to a *documented* emergency but score in the top 20th percentile on the other two exams, I will substitute the lower completed exam grade for one of the missed exams. Note: you must have documentation of the emergency circumstances that required you to miss the two exams. You can email me about the specific requirements for this documentation.  
 
 #### Cheatsheet
 
@@ -140,7 +140,7 @@ I've wrestled with the concept of cheatsheets a lot in past semesters. Ideally, 
 - Make sure that the exam problems are changed up so that copying from a HW/lab problem would hurt more than help. 
 - Eliminate cheatsheets altogether. 
 
-I think I've come up with a solution that'd help everyone. Over the course of several semesters, we've constructed a communal cheat sheet for each of the exams. These cheat sheets will be posted on the website well in advance of the exam and will be attached to the back of the exam. 
+I think I've come up with a solution that'd help everyone. Over the course of two semesters, we've constructed a communal cheat sheet for each of the exams. These cheat sheets will be posted on the website well in advance of the exam and will be attached to the back of the exam. 
 
 This lets me use problems that many of you have seen before but know that the people answering those problems are doing so because they actually mastered the material. 
 
@@ -153,10 +153,8 @@ The exams will be scanned and uploaded to Gradescope where they will be graded b
 
 Regrades requests would be open for a week once grades are released (except for final exam). Regrade requests are not intended for arguing about point allocation, or whether the grading scale is fair.
 
-Unfortunately, certain students think that they can tire us into giving them point that they did not earn, by keep asking for unjustified regrade requests. This is especially true in the case of exams. I have had students that would submit a grade request for **every single exam problem** hoping for more points. That's not cool. As such, superfluous, argumentative and repetitive regrade requests, after an appropriate warning, would results in a zero on the relevant questions - please do not waste our time.
+Unfortunately, certain students think that they can tire us into giving them point that they did not earn, by keep asking for unjustified regrade requests. As such, superfluous, argumentative and repetitive regrade requests, after an appropriate warning, would results in a zero on the relevant questions - please do not waste our time.
 
-Again, you should not fear submitting regrades if you have a question that you're confused and didn't gain any insight from the exam solutions (**please check the solutions first**). It's just that in any large group, there will be a few individuals that view teaching as an adversarial relationship and I have to make this stupid announcement for them. I hate it as much as you do. 
- 
 ### DRES
 - If you have a DRES accommodation, please email the course staff directly (not sure if sending documents over Piazza is compliant with EHR policies or not, but why risk it). Make sure I respond that I've recorded your accommodation! If I don't respond email again.
 - Because of the limited staff, DRES students will take the exams at the [TAC](https://www.disability.illinois.edu/academic-accommodations-and-supports/academic-accommodations/testing-accommodations) synchronously with the rest of the class. We'll hammer out the details closer to MT1. 

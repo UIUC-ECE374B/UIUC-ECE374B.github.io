@@ -9,10 +9,10 @@ people:
   - sandhya
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2024-10-17
-link-slides: 
-link-scribbles: 
-link-recording: 
+deliverydate: 2023-10-12
+link-slides: /materials/lecture_slides/lec15.pdf
+link-scribbles: /materials/lecture_slides/lec15_scribbles_sp23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_y13mhybh
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr10SgAKn_Dk_7rkyI4LxIcq&si=zrwD84N1DHpmJL1n
 ---
 
