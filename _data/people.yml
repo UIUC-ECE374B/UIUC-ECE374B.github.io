@@ -722,13 +722,13 @@ terence:
     image: /img/people/terence.jpg
     bio: Undergraduate Course Assistant
 
-skylargao:
-    display_name: "Skylar Gao"
+skylergao:
+    display_name: "Skyler Gao"
     netid: szgao2
-    webpage: 
+    webpage: https://www.linkedin.com/in/skyler-gao-9683b01b2/
     github: 
     role: ugrad-alum
-    image: /img/people/anon-male.jpg
+    image: /img/people/skyler.png
     bio: Undergraduate Course Assistant
 
 kylechung:
