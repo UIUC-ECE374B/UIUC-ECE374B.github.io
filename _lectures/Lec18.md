@@ -4,7 +4,7 @@ placeholder: false
 back-color: fffffa
 card-link: LecLink18
 # subtitle: And a subtitle
-description: Lasting, we'll end the algorithms portion of the course with a discussion on minimum spanning tree algorithms. Will be a nice "cool-down" before the next midterm. 
+description: Lastly, we'll end the algorithms portion of the course with a discussion on minimum spanning tree algorithms. Will be a nice "cool-down" before the next midterm. 
 people:
   - sandhya
 layout: lecture
