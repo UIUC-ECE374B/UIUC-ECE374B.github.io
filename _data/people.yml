@@ -230,7 +230,20 @@ owen:
         day: Thursday
         location: 4036 ECEB
 
-
+tuedo:
+    display_name: "Tue Ngoc Do"
+    netid: tuedo2
+    webpage: "http://tuedo2.github.io/"
+    github: tuedo2
+    role: grad-alum
+    image: /img/people/tuedo.png\
+    bio: Graduate Course Assistant
+    OHs: 
+    #   OH1:
+    #     time-start: "13:00"
+    #     time-end: "14:00"
+    #     day: Friday
+    #     location:   
 
 ### Undergraduate TAs
 
