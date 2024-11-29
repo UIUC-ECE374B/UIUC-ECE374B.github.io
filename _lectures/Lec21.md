@@ -28,6 +28,13 @@ My favorite part of this video is that it presents quite a few algorithmic conce
 
 One of your CAs, Mr. Sumedh Vemuganti decided that it might be fun to [prove if the JigSaw puzzle problem is NP-Complete](/materials/extra_content/Jigsaw_Sumedh.pdf) (spoiler: depends on how we define the problem)
 
+<h4> Five Bi-colorable Problem <h4>
+
+In Lab 21, there is a problem about bi-coloring (coloring a node with two colors instead of one). In that problem, one of the 374 professors posited that there is a reduction showing that five-strong-bicoloring is NP-hard, but they couldn't think of how to solve it at the time. 
+
+In Summer 2024, a student (now CA), Mr. Eric Carl Roth, [formulated a proof for strong five-string-bicoloring](/materials/extra_content/five-bicolorable.pdf). Hats off to Eric for his work! 
+
+
 <h4>Additional Resources</h4>
 
 * Textbooks 
