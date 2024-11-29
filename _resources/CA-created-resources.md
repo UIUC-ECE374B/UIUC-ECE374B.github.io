@@ -14,7 +14,7 @@ people:
 
 Creating new content is *difficult* and usually a task for me and the TAs. However, a few CAs have taken up the challenge of making new content: 
 
-- [Jigsaw problem reduction](/lectures/Lec21.html)
+- [Five-strong-bicolor proof](/lectures/Lec21.html)
   - Manuscript: [pdf](/materials/extra_content/five-bicolorable.pdf)
   - Author: Eric Carl Roth
 
