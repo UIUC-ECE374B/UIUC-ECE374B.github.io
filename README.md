@@ -16,3 +16,4 @@ And above all, most of the materials are adapted from prior works from all the p
 - [Jeff Erickson](https://jeffe.cs.illinois.edu/)
 - [Chandra Chekuri](https://chekuri.cs.illinois.edu/)
 
+In additon, Sumedh Vemuganti has been a conistent contributor to the course content. His working is spread throughout the site but his discussion videos are especially good!
