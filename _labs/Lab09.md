@@ -12,7 +12,7 @@ deliverydate: 2023-09-27
 link-questions: /materials/labs/lab9-bin-search.pdf
 link-solutions: /materials/labs/lab9-bin-search.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_1fwduk7u/347892222
-link-recording-ta:
+link-recording-ta: https://youtu.be/1SAZ636q4wY
 ---
 
 

@@ -12,7 +12,7 @@ deliverydate: 2023-11-03
 link-questions: /materials/labs/lab19.pdf
 link-solutions: /materials/labs/lab19.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_46jkqaja
-link-recording-ta:
+link-recording-ta: https://youtube.com/watch?v=xIyr7YVCkfM
 ---
 
 
