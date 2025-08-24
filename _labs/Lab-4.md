@@ -13,7 +13,7 @@ people:
 layout: post
 no-link: true  # stops link to page 
 # last-updated: 202 #last updated date
-deliverydate: 2023-11-29 #last updated date
+deliverydate: 2023-12-03 #last updated date
 # link-questions: /lab_pdfs/lab1-reg_expr.pdf
 # link-solutions: /lab_pdfs/lab1-reg_expr-sol.pdf
 ---

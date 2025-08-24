@@ -8,9 +8,9 @@ description: The second lab on decidability. We'll prove some other languages ar
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2023-11-17
-link-questions: /materials/labs/lab23.pdf
-link-solutions: /materials/labs/lab23.pdf
+deliverydate: 2025-11-21
+link-questions: #/materials/labs/lab23.pdf
+link-solutions: #/materials/labs/lab23.pdf
 link-recording:
 link-recording-ta:
 ---

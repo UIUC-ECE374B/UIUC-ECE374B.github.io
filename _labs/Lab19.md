@@ -8,9 +8,9 @@ description: We begin with a discussion of reductions and show how one can solve
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2023-11-03
-link-questions: /materials/labs/lab19.pdf
-link-solutions: /materials/labs/lab19.pdf
+deliverydate: 2025-11-07
+link-questions: #/materials/labs/lab19.pdf
+link-solutions: #/materials/labs/lab19.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_46jkqaja
 link-recording-ta: https://youtube.com/watch?v=xIyr7YVCkfM
 ---

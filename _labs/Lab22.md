@@ -8,9 +8,9 @@ description: First lab on decidability. We'll be testing the waters on some simp
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2023-11-15
-link-questions: /materials/labs/lab22.pdf
-link-solutions: /materials/labs/lab22.pdf
+deliverydate: 2025-11-19
+link-questions: #/materials/labs/lab22.pdf
+link-solutions: #/materials/labs/lab22.pdf
 link-recording:
 link-recording-ta: https://youtu.be/EjGIFSMdpA4
 ---

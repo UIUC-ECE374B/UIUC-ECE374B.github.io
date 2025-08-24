@@ -8,9 +8,9 @@ description: Some quick problem involving recursive definitions and what a langu
 people:
 layout: post
 no-link: true  # stops link to page 
-deliverydate: 2023-08-23
-link-questions: /materials/labs/lab0-languages.pdf
-link-solutions: /materials/labs/lab0-languages-sol.pdf
+deliverydate: 2025-08-27
+link-questions: #/materials/labs/lab0-languages.pdf
+link-solutions: #/materials/labs/lab0-languages-sol.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_8torby60
 link-recording-ta:
 ---
