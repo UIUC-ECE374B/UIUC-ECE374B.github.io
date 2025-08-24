@@ -45,21 +45,21 @@ role-archive-tables:
 
 <div class="jumbotron">
     <p>
+        {% if site.archived != true %}
         This is <b>not</b> the current CS/ECE-374-B site. I have received many emails asking for my past course materials (mostly my lectures and exams) so I am keeping this site alive as a repository of the content I created during my tenure as a ECE374 instructor. I also spent a year learning Jekyll to create course website that is simple, clean, and lightweight on the front-end and is easy to update on the backend. I invite any professors to contribute to this effort and feel free to email me with any suggestions. 
         <hr>
-        Award-winning TA, Mr. Sumedh Vemuganti's discussion section recordings are now <a href="https://ecealgo.com/lectures.html">available</a> to view! Sumedh's passion for teaching and computer science is unmatched and I highly recommend his recordings!
-        <hr>
+        {% endif %}
+        CS/ECE 374 covers fundamental tools and techniques from theoretical computer science, including design and analysis of algorithms, formal languages and automata, computability, and complexity. Specific topics include regular and context-free languages, finite-state automata, recursive algorithms (including divide and conquer, backtracking, dynamic programming, and greedy algorithms), fundamental graph algorithms (including depth- and breadth-first search, topological sorting, minimum spanning trees, and shortest paths), undecidability, and NP-completeness. The course also has a strong focus on clear technical communication.
         <details>
         <hr>
         <summary> Dedication </summary>    
         One of the most important things I've learned teaching a large course is that one's success is predicated on the abilities of the company he/she keeps and I have been very lucky to have great company. In particular,  I would like to thank Sariel Har-Peled and Andrew Miller for being great co-instructors. Most of all, I would also like to thank my amazing graduate and undergraduate teaching assistants that have shown so much dedication to the students and helped prop me up even when I was completely overwhelmed. Teaching assistants make or break the course and these guys definitely made it. 
         </details>
-        <hr>
+        <!-- <hr>
         <details>            
         <hr>
         <summary> Course Description </summary>
-        CS/ECE 374 covers fundamental tools and techniques from theoretical computer science, including design and analysis of algorithms, formal languages and automata, computability, and complexity. Specific topics include regular and context-free languages, finite-state automata, recursive algorithms (including divide and conquer, backtracking, dynamic programming, and greedy algorithms), fundamental graph algorithms (including depth- and breadth-first search, topological sorting, minimum spanning trees, and shortest paths), undecidability, and NP-completeness. The course also has a strong focus on clear technical communication.
-        </details>
+        </details> -->
     </p>
 </div>
 
