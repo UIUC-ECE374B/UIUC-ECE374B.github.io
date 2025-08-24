@@ -766,7 +766,7 @@ terence:
     netid: terence6
     webpage: "https://www.linkedin.com/in/terence-zeng-/"
     github: terencezeng6
-    role: ugrad-alum
+    role: ugrad
     image: /img/people/terence.jpg
     bio: Undergraduate Course Assistant
 
@@ -786,6 +786,96 @@ kylechung:
     github: kyle11067
     role: ugrad-alum
     image: /img/people/kylechung.jpg
+    bio: Undergraduate Course Assistant
+
+ajitesh:
+    display_name: "Ajitesh Dasaratha"
+    netid: asd11
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+ritish:
+    display_name: "Ritish Dahivalkar"
+    netid: rrd6
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-female.jpg
+    bio: Undergraduate Course Assistant
+
+tristan:
+    display_name: "Tristan Yang"
+    netid: lixiny2
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+rawda:
+    display_name: "Rawda Abdeltawab"
+    netid: rawdaka2
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-female.jpg
+    bio: Undergraduate Course Assistant
+
+jefferson:
+    display_name: "Jefferson Zhang"
+    netid: jyz4
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+wenhao:
+    display_name: "Wenhao Zhang"
+    netid: wenhaoz5
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+vidhata:
+    display_name: "Vidhata Jayaraman"
+    netid: vidhata2
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+anushree:
+    display_name: "Anushree	Atmakuri"
+    netid: aa127
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+shreyansh:
+    display_name: "Shreyansh Agrawal"
+    netid: sa91
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
+    bio: Undergraduate Course Assistant
+
+raymond:
+    display_name: "Raaymond Alvaro"
+    netid: ralvaro2
+    webpage: ""
+    github: 
+    role: ugrad
+    image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
 
 
