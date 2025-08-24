@@ -9,10 +9,13 @@ people:
   - kani
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-08-24
-link-slides: /materials/lecture_slides/lec1.pdf
-link-scribbles: /materials/lecture_slides/lec1_scribbles_fa23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_o7rruiy0
+deliverydate: 2025-08-28
+# link-slides: /materials/lecture_slides/lec1.pdf
+# link-scribbles: /materials/lecture_slides/lec1_scribbles_fa23.pdf
+# link-recording: https://mediaspace.illinois.edu/media/t/1_o7rruiy0
+link-slides: 
+link-scribbles: 
+link-recording: 
 pre-recording: 
 ---
 

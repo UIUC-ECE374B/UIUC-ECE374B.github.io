@@ -1,7 +1,7 @@
 MT1: 
   num: 1
   topic: Languages complexity 
-  date: 2023-09-21
+  date: 2025-09-25
   samp_exam1: /materials/exams/samples/midterm1-fa22.pdf
   samp_exam2: /materials/exams/samples/midterm1-sp23.pdf
   samp_exam1_sol: /materials/exams/samples/midterm1-sol-fa22.pdf
@@ -14,7 +14,7 @@ MT1:
 MT2: 
   num: 2
   topic: Algorithms 
-  date: 2023-10-31
+  date: 2025-11-04
   samp_exam1: /materials/exams/samples/midterm2-fa22.pdf
   samp_exam2: /materials/exams/samples/midterm2-sp23.pdf
   samp_exam1_sol: /materials/exams/samples/midterm2-sol-fa22.pdf
@@ -27,7 +27,7 @@ MT2:
 MT3: 
   num: 3
   topic: NP-completeness and decidability 
-  date: 2023-11-30
+  date: 2025-12-04
   samp_exam1: /materials/exams/samples/midterm3-fa22.pdf
   samp_exam2: /materials/exams/samples/midterm3-sp23.pdf
   samp_exam1_sol: /materials/exams/samples/midterm3-sol-fa22.pdf
@@ -37,15 +37,15 @@ MT3:
   exam_questions: materials/exams/midterm3-vf-fa23.pdf
   exam_solutions: materials/exams/midterm3-vf-fa23-sol.pdf
 
-Final: 
-  num: 4
-  topic: (Final) All of the above 
-  date: 2023-12-12
-  samp_exam: 
-  skillset: materials/exams/final_skillset.pdf
-  cheat_sheet: materials/exams/main_Final.pdf
-  fodder: 
-  exam_questions: 
-  exam_solutions: 
+# Final: 
+#   num: 4
+#   topic: (Final) All of the above 
+#   date: 2023-12-12
+#   samp_exam: 
+#   skillset: materials/exams/final_skillset.pdf
+#   cheat_sheet: materials/exams/main_Final.pdf
+#   fodder: 
+#   exam_questions: 
+#   exam_solutions: 
 
 

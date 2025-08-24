@@ -9,10 +9,13 @@ people:
   - sungwoo
 layout: lecture
 # no-link: true  # stops link to page 
-deliverydate: 2023-08-31
-link-slides: /materials/lecture_slides/lec3.pdf
-link-scribbles: /materials/lecture_slides/lec3_scribbles_fa23.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_rimbtdrq
+deliverydate: 2025-09-04
+# link-slides: /materials/lecture_slides/lec3.pdf
+# link-scribbles: /materials/lecture_slides/lec3_scribbles_fa23.pdf
+# link-recording: https://mediaspace.illinois.edu/media/t/1_rimbtdrq
+link-slides: 
+link-scribbles: 
+link-recording: 
 pre-recording: 
 ---
 
