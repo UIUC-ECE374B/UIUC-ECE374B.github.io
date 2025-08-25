@@ -92,10 +92,11 @@
                 {%- endif %}      
         {%- endcase %} 
         {%- if has_lec or has_lab or has_hw or has_exam %}
-            {{ day | date: '%e' }}</a></span>
+            {{ day | date: '%e' }}</a>
             {%- if has_quiz %}
-                <span><a href="{{ site.base }}/quizzes.html" style="color:#aaaa00;">*</a></span>
+                <a href="{{ site.base }}/quizzes.html" style="color:#aaaa00;">*</a>
             {%- endif %}
+            </span>
         {%- else %}
             {{ day | date: '%e' }}</span>
         {%- endif %}
