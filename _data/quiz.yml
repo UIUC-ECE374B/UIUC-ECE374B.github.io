@@ -1,0 +1,141 @@
+quiz00: 
+  num: 0
+  topic: Languages 
+  date: 2025-08-27
+  questions-link: 
+  solutions-link: 
+
+quiz01: 
+  num: 1
+  topic: Regular expressions 
+  date: 2025-09-03
+  questions-link: 
+  solutions-link:  
+
+quiz02: 
+  num: 2
+  topic: DFAs 
+  date: 2025-09-05
+  questions-link: 
+  solutions-link:  
+
+quiz03: 
+  num: 3
+  topic: Language transforms 
+  date: 2025-09-10
+  questions-link: 
+  solutions-link:  
+
+quiz04: 
+  num: 4
+  topic: Reg machine conversion 
+  date: 2025-09-12
+  questions-link: 
+  solutions-link:  
+
+quiz05: 
+  num: 5
+  topic: Proving non-regularity 
+  date: 2025-09-17
+  questions-link: 
+  solutions-link:  
+
+quiz06: 
+  num: 6
+  topic: Context free grammars 
+  date: 2025-09-19
+  questions-link: 
+  solutions-link:  
+
+quiz07: 
+  num: 7
+  topic: Binary Search 
+  date: 2025-10-03
+  questions-link: 
+  solutions-link:  
+
+quiz08: 
+  num: 8
+  topic: Divide and Conquer 
+  date: 2025-10-08
+  questions-link: 
+  solutions-link:  
+
+quiz09: 
+  num: 9
+  topic: Backtracking 
+  date: 2025-10-10
+  questions-link: 
+  solutions-link:  
+
+quiz10: 
+  num: 10
+  topic: Dynamic Programming I 
+  date: 2025-10-15
+  questions-link: 
+  solutions-link:  
+
+quiz11: 
+  num: 11
+  topic: Dynamic Programming II 
+  date: 2025-10-17
+  questions-link: 
+  solutions-link:  
+
+quiz12: 
+  num: 12
+  topic: Graph Modeling I
+  date: 2025-10-22
+  questions-link: 
+  solutions-link:  
+
+quiz13: 
+  num: 13
+  topic: Graph Modleing II 
+  date: 2025-10-24
+  questions-link: 
+  solutions-link:  
+
+quiz14: 
+  num: 14
+  topic: Shortest Paths I 
+  date: 2025-10-29
+  questions-link: 
+  solutions-link:  
+
+quiz15: 
+  num: 15
+  topic: Shortest Paths II 
+  date: 2025-10-31
+  questions-link: 
+  solutions-link:  
+
+quiz16: 
+  num: 16
+  topic: Reductions 
+  date: 2025-11-12
+  questions-link: 
+  solutions-link:  
+
+quiz17: 
+  num: 17
+  topic: NP-completeness I 
+  date: 2025-11-14
+  questions-link: 
+  solutions-link:  
+
+quiz18: 
+  num: 18
+  topic: NP-completeness II 
+  date: 2025-11-19
+  questions-link: 
+  solutions-link:  
+
+quiz19: 
+  num: 19
+  topic: Decidability 
+  date: 2025-11-21
+  questions-link: 
+  solutions-link:  
+
+

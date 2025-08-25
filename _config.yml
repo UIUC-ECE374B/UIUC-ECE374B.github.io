@@ -65,8 +65,8 @@ navigation:
   #   link: /people.html
   - title: Lectures and Labs
     link: /lectures.html    
-  - title: Homeworks
-    link: /homeworks.html
+  - title: Quizzes
+    link: /quizzes.html
   - title: Exams
     link: /exams.html    
   - title: Policies
