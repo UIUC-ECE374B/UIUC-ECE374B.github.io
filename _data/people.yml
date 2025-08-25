@@ -7,16 +7,16 @@ kani:
     image: /img/people/Kani.png
     bio: Teaching Assistant Professor 
     OHs: 
-      OH1:
-        time-start: "15:00"
-        time-end: "16:00"
-        day: Tuesday
-        location: 1039 CSL
-      OH2:
-        time-start: "15:00"
-        time-end: "16:00"
-        day: Thursday
-        location: 1039 CSL
+    #   OH1:
+    #     time-start: "15:00"
+    #     time-end: "16:00"
+    #     day: Tuesday
+    #     location: 1039 CSL
+    #   OH2:
+    #     time-start: "15:00"
+    #     time-end: "16:00"
+    #     day: Thursday
+    #     location: 1039 CSL
 
 sariel:     
     display_name: "Sariel Har-Peled"
@@ -44,12 +44,12 @@ andrew:
     role: faculty-alum
     image: /img/people/miller.png
     bio:  Associate Professor 
-    OHs: 
-      OH1:
-        time-start: "10:00"
-        time-end: "11:00"
-        day: Wednesday
-        location: 555 CSL
+    # OHs: 
+    #   OH1:
+    #     time-start: "10:00"
+    #     time-end: "11:00"
+    #     day: Wednesday
+    #     location: 555 CSL
 
 chandra:     
     display_name: "Chandra Chekuri"
@@ -85,12 +85,12 @@ sindhu:
     role: grad-alum
     image: /img/people/sindu.jpeg
     bio: Graduate Teaching Assistant
-    OHs: 
-      OH1:
-        time-start: "11:00"
-        time-end: "12:00"
-        day: Tuesday
-        location: 2036 ECEB  
+    # OHs: 
+    #   OH1:
+    #     time-start: "11:00"
+    #     time-end: "12:00"
+    #     day: Tuesday
+    #     location: 2036 ECEB  
 
 
 sandhya:
@@ -101,12 +101,12 @@ sandhya:
     role: grad-alum
     image: /img/people/sandhya.jpeg
     bio: Graduate Teaching Assistant
-    OHs: 
-      OH1:
-        time-start: "10:00"
-        time-end: "11:00"
-        day: Tuesday
-        location: 4036 ECEB
+    # OHs: 
+    #   OH1:
+    #     time-start: "10:00"
+    #     time-end: "11:00"
+    #     day: Tuesday
+    #     location: 4036 ECEB
 
 sumedh:
     display_name: "Sumedh Vemuganti"
@@ -131,12 +131,12 @@ weiyang:
     role: grad-alum
     image: /img/people/weiyang.jpeg
     bio: Graduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "17:00"
-        time-end: "18:00"
-        day: Wednesday
-        location: 2036 ECEB
+    # OHs: 
+    #   OH1:
+    #     time-start: "17:00"
+    #     time-end: "18:00"
+    #     day: Wednesday
+    #     location: 2036 ECEB
 
 ziheng:
     display_name: "Ziheng (Jack) Chen"
@@ -146,12 +146,12 @@ ziheng:
     role: grad-alum
     image: /img/people/ziheng.jpeg
     bio: Graduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "10:00"
-        time-end: "11:00"
-        day: Thursday
-        location: 4036 ECEB
+    # OHs: 
+    #   OH1:
+    #     time-start: "10:00"
+    #     time-end: "11:00"
+    #     day: Thursday
+    #     location: 4036 ECEB
 
 yueyi:
     display_name: "Yueyi Shen"
@@ -161,12 +161,12 @@ yueyi:
     role: grad-alum
     image: /img/people/yueyie.jpg
     bio: Graduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "16:00"
-        time-end: "17:00"
-        day: Thursday
-        location: 4036 ECEB
+    # OHs: 
+    #   OH1:
+    #     time-start: "16:00"
+    #     time-end: "17:00"
+    #     day: Thursday
+    #     location: 4036 ECEB
 
 haoyuan:
     display_name: "Haoyuan You"
@@ -176,12 +176,12 @@ haoyuan:
     role: grad-alum
     image: /img/people/haoyuan.png
     bio: Graduate Course Assistant
-    OHs: 
-      OH1:
-        time-start: "14:00"
-        time-end: "15:00"
-        day: Thursday
-        location: 3003 ECEB
+    # OHs: 
+    #   OH1:
+    #     time-start: "14:00"
+    #     time-end: "15:00"
+    #     day: Thursday
+    #     location: 3003 ECEB
 
 hongbo:
     display_name: "Hongbo Zheng"
