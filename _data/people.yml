@@ -7,11 +7,11 @@ kani:
     image: /img/people/Kani.png
     bio: Teaching Assistant Professor 
     OHs: 
-    #   OH1:
-    #     time-start: "15:00"
-    #     time-end: "16:00"
-    #     day: Tuesday
-    #     location: 1039 CSL
+      OH1:
+        time-start: "17:00"
+        time-end: "18:00"
+        day: Thursday
+        location: 1039 CSL
     #   OH2:
     #     time-start: "15:00"
     #     time-end: "16:00"
@@ -71,11 +71,11 @@ sungwoo:
     image: /img/people/sung.jpg
     bio: Graduate Teaching Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "15:00"
-    #     time-end: "16:00"
-    #     day: Wednesday
-    #     location: 2036 ECEB 
+      OH1:
+        time-start: "15:00"
+        time-end: "16:00"
+        day: Friday
+        location:  
       
 sindhu:
     display_name: "Sindhu Vydana"
@@ -116,12 +116,12 @@ sumedh:
     role: grad
     image: /img/people/sumedh.jpeg
     bio: Graduate Course Assistant
-    # OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "17:00"
-    #     day: Friday
-    #     location: 3013 ECEB
+    OHs: 
+      OH1:
+        time-start: "14:00"
+        time-end: "15:00"
+        day: Friday
+        location: 
 
 weiyang:
     display_name: "Weiyang Wang"
@@ -201,11 +201,11 @@ neeraj:
     image: /img/people/neeraj.jpg
     bio: Graduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "17:00"
-    #     day: Tuesday
-    #     location: 4036 ECEB  
+      OH1:
+        time-start: "11:00"
+        time-end: "12:00"
+        day: Monday
+        location:   
    
 suyuan:
     display_name: "Suyuan Wang"
@@ -216,11 +216,11 @@ suyuan:
     image: /img/people/suyuan.jpg
     bio: Graduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "17:00"
-    #     day: Tuesday
-    #     location: 4036 ECEB  
+      OH1:
+        time-start: "13:00"
+        time-end: "14:00"
+        day: Wednesday
+        location:   
 
 owen:
     display_name: "Owen Xu"
@@ -231,11 +231,11 @@ owen:
     image: /img/people/owen.jpg
     bio: Graduate Course Assistant
     OHs: 
-    #   OH1:
-    #     time-start: "16:00"
-    #     time-end: "17:00"
-    #     day: Tuesday
-    #     location: 4036 ECEB  
+      OH1:
+        time-start: "16:00"
+        time-end: "17:00"
+        day: Tuesday
+        location:  
 
 
 tuedo:
@@ -262,11 +262,11 @@ ben:
     image: /img/people/ben.jpeg
     bio: Undergraduate Course Assistant
     OHs: 
-      # OH1:
-      #   time-start: "16:00"
-      #   time-end: "17:00"
-      #   day: Wednesday
-      #   location: ECEB 3020
+      OH1:
+        time-start: "12:00"
+        time-end: "13:00"
+        day: Wednesday
+        location: 
 
 vishesh:
     display_name: "Vishesh Prasad"
@@ -277,11 +277,11 @@ vishesh:
     image: /img/people/visheh.png
     bio: Undergraduate Researcher
     OHs: 
-      # OH1:
-      #   time-start: "16:00"
-      #   time-end: "17:00"
-      #   day: Wednesday
-      #   location: ECEB 3020
+      OH1:
+        time-start: "14:00"
+        time-end: "15:00"
+        day: Monday
+        location: 
 
 atharva:
     display_name: "Atharva Jain"
@@ -292,11 +292,11 @@ atharva:
     image: /img/people/atharva.jpg
     bio: Undergraduate Course Assistant
     OHs: 
-      # OH1:
-      #   time-start: "16:00"
-      #   time-end: "17:00"
-      #   day: Wednesday
-      #   location: ECEB 3020
+      OH1:
+        time-start: "14:00"
+        time-end: "15:00"
+        day: Tuesday
+        location: 
 
 ### Undergraduate TAs
 

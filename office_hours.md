@@ -18,7 +18,7 @@ Obviously this course isn't active and there aren't any discussion sections or o
   </tr>
   <tr>
     <td> BL1 </td>
-    <td> 12:30PM - 1:45PM </td>
+    <td> 03:30PM - 4:50PM </td>
     <td> Kani </td>
     <td> 0027/1025 CIF </td>
   </tr>
@@ -36,49 +36,49 @@ Obviously this course isn't active and there aren't any discussion sections or o
   <tr>
     <td> BYA </td>
     <td> 09:00AM - 09:50AM </td>
-    <td>  </td>
+    <td> Ben Kim </td>
     <td> 2017 ECEB </td>
   </tr>
   <tr>
     <td> BYB </td>
     <td> 10:00AM - 10:50AM </td>
-    <td>  </td>
+    <td> Suyuan Wang </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYC </td>
     <td> 11:00AM - 11:50AM </td>
-    <td>  </td>
+    <td> Atharv Jain </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYD </td>
     <td> 12:00PM - 12:50PM </td>
-    <td>  </td>
+    <td> Vishesh Prasad </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYE </td>
     <td> 01:00PM - 01:50PM </td>
-    <td>  </td>
+    <td> Sumedh Vemuganti </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYF </td>
     <td> 02:00PM - 02:50PM </td>
-    <td>  </td>
+    <td> Sung Woo Jeon </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYG </td>
     <td> 03:00PM - 03:50PM </td>
-    <td>  </td>
+    <td> Neeraj Gangwar </td>
     <td> 4070 ECEB </td>
   </tr>
   <tr>
     <td> BYH </td>
     <td> 04:00PM - 04:50PM </td>
-    <td>  </td>
+    <td> Owen Xu </td>
     <td> 2015 ECEB </td>
   </tr>
 </table>
