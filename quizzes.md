@@ -11,7 +11,7 @@ title: Quizzes
     <th>Questions</th>
     <th>Solutions</th>
   </tr>
-  {% for iteml in site.data.homework %}  
+  {% for iteml in site.data.quiz %}  
     {% assign item = iteml[1] %}
     <tr>
         <td>{{ item.num }}</td>
