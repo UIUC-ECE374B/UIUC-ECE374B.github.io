@@ -10,12 +10,9 @@ people:
 layout: lecture
 # no-link: true  # stops link to page 
 deliverydate: 2025-10-23
-# link-slides: /materials/lecture_slides/lec17.pdf
-# link-scribbles: /materials/lecture_slides/lec17_scribbles_sp23.pdf
-# link-recording: https://mediaspace.illinois.edu/media/t/1_t85q7ijk
-link-slides: 
-link-scribbles: 
-link-recording: 
+link-slides: /materials/lecture_slides/lec17.pdf
+link-scribbles: /materials/lecture_slides/lec17_scribbles_sp23.pdf
+link-recording: https://mediaspace.illinois.edu/media/t/1_t85q7ijk
 pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr1hKu0ou-YGK-qzLOR-ICvL&si=ozg0MZYdiPEF2QrF
 ---
 
