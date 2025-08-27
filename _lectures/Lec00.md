@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2025-08-26 #last updated date
 link-slides: /materials/lecture_slides/lec0.pdf
 link-scribbles: 
-link-recording: 
+link-recording: https://mediaspace.illinois.edu/media/t/1_3vi92a37
 pre-recording: 
 ---
 

@@ -10,7 +10,7 @@ layout: post
 no-link: true  # stops link to page 
 deliverydate: 2025-09-12
 link-questions: /materials/labs/lab5-fooling.pdf
-link-solutions: /materials/labs/lab5-fooling.pdf
+link-solutions: #/materials/labs/lab5-fooling.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_337mgtp4
 link-recording-ta: https://www.youtube.com/watch?v=6cFQztlEs-I
 ---
