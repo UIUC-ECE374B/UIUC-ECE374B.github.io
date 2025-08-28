@@ -75,7 +75,7 @@ sungwoo:
         time-start: "15:00"
         time-end: "16:00"
         day: Friday
-        location:  
+        location:  ECEB 4036
       
 sindhu:
     display_name: "Sindhu Vydana"
@@ -121,7 +121,7 @@ sumedh:
         time-start: "14:00"
         time-end: "15:00"
         day: Friday
-        location: 
+        location: ECEB 4036
 
 weiyang:
     display_name: "Weiyang Wang"
@@ -205,7 +205,7 @@ neeraj:
         time-start: "11:00"
         time-end: "12:00"
         day: Monday
-        location:   
+        location: ECEB 4036 
    
 suyuan:
     display_name: "Suyuan Wang"
@@ -220,7 +220,7 @@ suyuan:
         time-start: "13:00"
         time-end: "14:00"
         day: Wednesday
-        location:   
+        location: ECEB 4036   
 
 owen:
     display_name: "Owen Xu"
@@ -235,7 +235,7 @@ owen:
         time-start: "16:00"
         time-end: "17:00"
         day: Tuesday
-        location:  
+        location: ECEB 4036  
 
 
 tuedo:
@@ -266,7 +266,7 @@ ben:
         time-start: "12:00"
         time-end: "13:00"
         day: Wednesday
-        location: 
+        location: ECEB 4036
 
 vishesh:
     display_name: "Vishesh Prasad"
@@ -281,7 +281,7 @@ vishesh:
         time-start: "14:00"
         time-end: "15:00"
         day: Monday
-        location: 
+        location: ECEB 4036
 
 atharva:
     display_name: "Atharva Jain"
@@ -296,7 +296,7 @@ atharva:
         time-start: "14:00"
         time-end: "15:00"
         day: Tuesday
-        location: 
+        location: ECEB 4036 
 
 ### Undergraduate TAs
 
