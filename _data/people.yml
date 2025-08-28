@@ -800,10 +800,10 @@ ajitesh:
 ranjani:
     display_name: "Ranjani Ramesh"
     netid: rrd6
-    webpage: ""
-    github: 
+    webpage: "https://www.linkedin.com/in/ranjani-ramesh/"
+    github: ranjaniramesh99
     role: ugrad
-    image: /img/people/anon-female.jpg
+    image: /img/people/ranjani.jpeg
     bio: Undergraduate Course Assistant
 
 tristan:
