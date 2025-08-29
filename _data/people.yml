@@ -809,10 +809,10 @@ ranjani:
 tristan:
     display_name: "Tristan Yang"
     netid: lixiny2
-    webpage: ""
-    github: 
+    webpage: "https://www.linkedin.com/in/lixin-yang-5a1a13370/"
+    github: TristanYangLXX
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/tristan.png
     bio: Undergraduate Course Assistant
 
 rawda:
