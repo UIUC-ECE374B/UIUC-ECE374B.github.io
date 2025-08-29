@@ -863,10 +863,10 @@ anushree:
 shreyansh:
     display_name: "Shreyansh Agrawal"
     netid: sa91
-    webpage: ""
-    github: 
+    webpage: "https://shreyansh7a.github.io/shreyansh.github.io/"
+    github: Shreyansh7A
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/shreyansh.png
     bio: Undergraduate Course Assistant
 
 raymond:
