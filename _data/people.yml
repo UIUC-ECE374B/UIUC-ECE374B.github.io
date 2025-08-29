@@ -818,10 +818,10 @@ tristan:
 rawda:
     display_name: "Rawda Abdeltawab"
     netid: rawdaka2
-    webpage: ""
+    webpage: "http://www.linkedin.com/in/rabdeltawab"
     github: 
     role: ugrad
-    image: /img/people/anon-female.jpg
+    image: /img/people/rawda.png
     bio: Undergraduate Course Assistant
 
 jefferson:
