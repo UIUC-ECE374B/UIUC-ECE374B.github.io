@@ -845,10 +845,10 @@ wenhao:
 vidhata:
     display_name: "Vidhata Jayaraman"
     netid: vidhata2
-    webpage: ""
-    github: 
+    webpage: "https://www.linkedin.com/in/vidhata-jayaraman/"
+    github: dxdt14
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/vidhata.png
     bio: Undergraduate Course Assistant
 
 anushree:
