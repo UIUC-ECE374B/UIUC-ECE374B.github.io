@@ -11,7 +11,7 @@ kani:
         time-start: "17:00"
         time-end: "18:00"
         day: Thursday
-        location: 1039 CSL
+        location:
     #   OH2:
     #     time-start: "15:00"
     #     time-end: "16:00"
@@ -796,6 +796,17 @@ ajitesh:
     role: ugrad
     image: /img/people/ajitesh.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "12:00"
+        time-end: "14:00"
+        day: Monday
+        location: 
+      OH2:
+        time-start: "12:00"
+        time-end: "14:00"
+        day: Tuesday
+        location: 
 
 ranjani:
     display_name: "Ranjani Ramesh"
@@ -805,6 +816,18 @@ ranjani:
     role: ugrad
     image: /img/people/ranjani.jpeg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Thursday
+        location: 
+      OH2:
+        time-start: "12:00"
+        time-end: "14:00"
+        day: Friday
+        location: 
+
 
 tristan:
     display_name: "Tristan Yang"
@@ -814,6 +837,17 @@ tristan:
     role: ugrad
     image: /img/people/tristan.png
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "14:00"
+        time-end: "16:00"
+        day: Friday
+        location: 
+    #   OH2:
+    #     time-start: "12:00"
+    #     time-end: "14:00"
+    #     day: Tuesday
+    #     location: 
 
 rawda:
     display_name: "Rawda Abdeltawab"
@@ -841,6 +875,18 @@ wenhao:
     role: ugrad
     image: /img/people/wenhao.jpg
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Wednesday
+        location: 
+      OH2:
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Friday
+        location: 
+
 
 vidhata:
     display_name: "Vidhata Jayaraman"
@@ -850,6 +896,17 @@ vidhata:
     role: ugrad
     image: /img/people/vidhata.png
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "11:00"
+        time-end: "12:00"
+        day: Wednesday
+        location: 
+    #   OH2:
+    #     time-start: "12:00"
+    #     time-end: "14:00"
+    #     day: Tuesday
+    #     location: 
 
 anushree:
     display_name: "Anushree	Atmakuri"
@@ -859,7 +916,18 @@ anushree:
     role: ugrad
     image: /img/people/anon-male.jpg
     bio: Undergraduate Course Assistant
-
+    OHs: 
+      OH1:
+        time-start: "10:00"
+        time-end: "11:00"
+        day: Monday
+        location: 
+    #   OH2:
+    #     time-start: "12:00"
+    #     time-end: "14:00"
+    #     day: Tuesday
+    #     location: 
+        
 shreyansh:
     display_name: "Shreyansh Agrawal"
     netid: sa91
@@ -868,6 +936,18 @@ shreyansh:
     role: ugrad
     image: /img/people/shreyansh.png
     bio: Undergraduate Course Assistant
+    OHs: 
+      OH1:
+        time-start: "11:00"
+        time-end: "12:00"
+        day: Friday
+        location: 
+    #   OH2:
+    #     time-start: "12:00"
+    #     time-end: "14:00"
+    #     day: Tuesday
+    #     location: 
+
 
 raymond:
     display_name: "Raymond Alvaro"
