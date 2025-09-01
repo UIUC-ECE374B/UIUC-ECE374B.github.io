@@ -2,8 +2,8 @@ quiz00:
   num: 0
   topic: Languages 
   date: 2025-08-29
-  questions-link: 
-  solutions-link: 
+  questions-link: materials/quizzes/Q0.pdf
+  solutions-link: materials/quizzes/Q0-sols.pdf
 
 quiz01: 
   num: 1
