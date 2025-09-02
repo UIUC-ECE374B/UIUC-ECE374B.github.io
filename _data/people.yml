@@ -838,11 +838,11 @@ tristan:
     image: /img/people/tristan.png
     bio: Undergraduate Course Assistant
     OHs: 
-      OH1:
-        time-start: "14:00"
-        time-end: "16:00"
-        day: Friday
-        location: 
+    #   OH1:
+    #     time-start: "14:00"
+    #     time-end: "16:00"
+    #     day: Friday
+    #     location: 
     #   OH2:
     #     time-start: "12:00"
     #     time-end: "14:00"
