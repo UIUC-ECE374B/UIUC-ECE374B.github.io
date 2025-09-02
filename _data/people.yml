@@ -901,7 +901,7 @@ vidhata:
         time-start: "11:00"
         time-end: "12:00"
         day: Wednesday
-        location: Zoom
+        location: # Zoom
     #   OH2:
     #     time-start: "12:00"
     #     time-end: "14:00"
