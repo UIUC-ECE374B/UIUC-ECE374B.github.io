@@ -792,7 +792,7 @@ ajitesh:
     display_name: "Ajitesh Dasaratha"
     netid: asd11
     webpage: "https://www.linkedin.com/in/ajiteshdasaratha"
-    github: 
+    github: ajiteshdasara123
     role: ugrad
     image: /img/people/ajitesh.jpg
     bio: Undergraduate Course Assistant
@@ -911,10 +911,10 @@ vidhata:
 anushree:
     display_name: "Anushree	Atmakuri"
     netid: aa127
-    webpage: ""
-    github: 
+    webpage: "https://www.linkedin.com/in/anushree-atmakuri"
+    github: anushreeatmakuri
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/anushree.png
     bio: Undergraduate Course Assistant
     OHs: 
       OH1:
@@ -953,9 +953,9 @@ raymond:
     display_name: "Raymond Alvaro"
     netid: ralvaro2
     webpage: ""
-    github: 
+    github: ralvaro2
     role: ugrad
-    image: /img/people/anon-male.jpg
+    image: /img/people/raymond.png
     bio: Undergraduate Course Assistant
 
 
