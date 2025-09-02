@@ -11,7 +11,7 @@ kani:
         time-start: "17:00"
         time-end: "18:00"
         day: Thursday
-        location:
+        location: 
     #   OH2:
     #     time-start: "15:00"
     #     time-end: "16:00"
@@ -235,7 +235,7 @@ owen:
         time-start: "16:00"
         time-end: "17:00"
         day: Tuesday
-        location: ECEB 4036  
+        location: # ECEB 4036  
 
 
 tuedo:
@@ -901,7 +901,7 @@ vidhata:
         time-start: "11:00"
         time-end: "12:00"
         day: Wednesday
-        location: 
+        location: Zoom
     #   OH2:
     #     time-start: "12:00"
     #     time-end: "14:00"
