@@ -842,7 +842,7 @@ tristan:
         time-start: "16:00"
         time-end: "18:00"
         day: Friday
-        location: 
+        location: ECEB 4036
     #   OH2:
     #     time-start: "12:00"
     #     time-end: "14:00"
