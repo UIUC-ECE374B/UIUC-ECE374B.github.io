@@ -85,7 +85,11 @@ Obviously this course isn't active and there aren't any discussion sections or o
 &nbsp;
 
 #### Office hours
-Office hours will be conducted by the instructor(s), TAs and CAs. Office hours are not a place to check if your homework solutions are correct (the CAs do not even have access to the homework solutions). Office hours are meant to help you master the course concepts and assist you in working through any assignments when you are stuck. 
+Office hours will be conducted by the instructor(s), TAs and CAs. 
+<!-- Office hours are not a place to check if your homework solutions are correct (the CAs do not even have access to the homework solutions).  -->
+Office hours are meant to help you master the course concepts and assist you in working through any assignments when you are stuck. Come with questions.
+
+Zoom OH will be held [here](https://illinois.zoom.us/j/83385693827?pwd=XWIQvLwtPkLkCeMPcriiQSkJS9wVPh.1).
 
 {% include OHs_table.html %}
 

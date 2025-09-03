@@ -11,7 +11,7 @@ kani:
         time-start: "17:00"
         time-end: "18:00"
         day: Thursday
-        location: 
+        location: CSL 265
     #   OH2:
     #     time-start: "15:00"
     #     time-end: "16:00"
@@ -232,10 +232,10 @@ owen:
     bio: Graduate Course Assistant
     OHs: 
       OH1:
-        time-start: "16:00"
-        time-end: "17:00"
+        time-start: "17:00"
+        time-end: "18:00"
         day: Tuesday
-        location: # ECEB 4036  
+        location: Zoom  
 
 
 tuedo:
@@ -901,7 +901,7 @@ vidhata:
         time-start: "11:00"
         time-end: "12:00"
         day: Wednesday
-        location: # Zoom
+        location: Zoom
     #   OH2:
     #     time-start: "12:00"
     #     time-end: "14:00"
