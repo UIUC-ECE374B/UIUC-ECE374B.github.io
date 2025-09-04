@@ -9,8 +9,8 @@ quiz01:
   num: 1
   topic: Regular expressions 
   date: 2025-09-03
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q01.pdf
+  solutions-link: materials/quizzes/Q01-sols.pdf
 
 quiz02: 
   num: 2
