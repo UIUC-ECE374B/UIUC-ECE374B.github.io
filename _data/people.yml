@@ -235,8 +235,12 @@ owen:
         time-start: "17:00"
         time-end: "18:00"
         day: Tuesday
+        location: ECEB 4036  
+      OH2:
+        time-start: "14:00"
+        time-end: "15:00"
+        day: Thursday
         location: Zoom  
-
 
 tuedo:
     display_name: "Tue Ngoc Do"
