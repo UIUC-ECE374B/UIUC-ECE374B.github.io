@@ -16,8 +16,8 @@ quiz02:
   num: 2
   topic: DFAs 
   date: 2025-09-05
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q02.pdf
+  solutions-link: materials/quizzes/Q02-sols.pdf 
 
 quiz03: 
   num: 3
