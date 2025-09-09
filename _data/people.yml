@@ -216,11 +216,11 @@ suyuan:
     image: /img/people/suyuan.jpg
     bio: Graduate Course Assistant
     OHs: 
-      OH1:
-        time-start: "13:00"
-        time-end: "14:00"
-        day: Wednesday
-        location: ECEB 4036   
+    #   OH1:
+    #     time-start: "13:00"
+    #     time-end: "14:00"
+    #     day: Wednesday
+    #     location: ECEB 4036   
 
 owen:
     display_name: "Owen Xu"
