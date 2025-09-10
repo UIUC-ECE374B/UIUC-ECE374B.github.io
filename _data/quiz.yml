@@ -23,8 +23,8 @@ quiz03:
   num: 3
   topic: Language transforms 
   date: 2025-09-10
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q03.pdf
+  solutions-link: materials/quizzes/Q03-sols.pdf
 
 quiz04: 
   num: 4
