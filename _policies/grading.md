@@ -7,7 +7,7 @@ description: How your final grade is calculated.
 
 There are two components to your raw total: 
 
-- [Quizzes](/homeworks.html): 25%
+- [Quizzes](/quizzes.html): 25%
     - Remember, each quiz contributes 2 points to your 25 point quiz grade portion and we have 20 quizzes in total. This means that 7.5 quizzes can be dropped without impacting your final grade. If you miss a quiz due to illness or did not perform as well as you'd hoped, you have an opportunity to bounce back. 
 - [Exams](/exams.html): 75%
     - There will be three midterm exams covering each of the three main subjects in the course. 
