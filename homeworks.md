@@ -62,10 +62,6 @@ That said, several students have expressed a desire for homeworks as a means of 
 Couple things to note about homeworks:
 - Homeworks are to be completed **individually**. Yes, this is a change from previous seemsters but we have [good reason](/resources/No-group-assignments.html) to believe that the group homeworks hamper learning instead of facilitate it. 
 - Each homework is assigned when you have all (or at least most) of the required knowledge to complete it. In two cases, because of scheduling constraints, one or two problems may require knowledge from the lecture/discussion right after assignment. Either way you'll have the knowledge for those problems by Wednesday. This is a long-winded way of saying: **There is zero reason not to start the homework early**
-<!-- - Most homeworks will consist of 2 novel problems and 2 problems you've seen in the labs. All the problems counts equally toward your final course grade.
-- The homework average consists 25% of your final course grade. We will use the highest 27 scores to calculate your homework average for your final course grade. Since there are expected to be 36 problems, this means that 8 problems will be dropped (>2 homeworks).
-- It's a bad idea to skip homeworks. Homeworks and labs are where we get inspiration for exam problems. 
-- You can find a sample HW LaTeX template [here](/materials/homeworks/hwt_B.tex). -->
 
 ### Homework Logistics: How to submit (Not relevant in Fall 2025)
 
@@ -78,7 +74,6 @@ Couple things to note about homeworks:
     - The homework number
     - The problem number
     - Name + netid
-<!-- - **We will not accept late homework for any reason.** To offset this rather draconian policy, we have a very generous number of homework drops (compared to other sections/courses). Also remember you can always resubmit a problem to gradescope. There is zero reason to wait until the last minute to submit your work.   -->
 
 ### Homework Grading Policies: 
 
