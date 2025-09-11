@@ -2,8 +2,8 @@ hw1:
   num: 1
   topic: Languages and RegEx
   num-problems: 4
-  assigned-date: 2023-08-25
-  due-date: 2023-09-04
+  assigned-date: 2025-08-29
+  due-date: 2025-09-08
   questions-link: /materials/homeworks/hw1.pdf
   solutions-link: /materials/homeworks/hw1_sol.pdf
 
@@ -11,8 +11,8 @@ hw2:
   num: 2
   topic: DFAs and NFAs	
   num-problems: 4
-  assigned-date: 2023-09-01
-  due-date: 2023-09-11
+  assigned-date: 2025-09-05
+  due-date: 2025-09-15
   questions-link: /materials/homeworks/hw2.pdf
   solutions-link: /materials/homeworks/hw2_sol.pdf
 
@@ -20,8 +20,8 @@ hw3:
   num: 3
   topic: Fooling Sets and CFGs	
   num-problems: 4
-  assigned-date: 2023-09-07
-  due-date: 2023-09-18
+  assigned-date: 2025-09-12
+  due-date: 2025-09-22
   questions-link: /materials/homeworks/hw3.pdf
   solutions-link: /materials/homeworks/hw3_sol.pdf
 
@@ -29,8 +29,8 @@ hw4:
   num: 4
   topic: Reductions and Divide & Conquer	
   num-problems: 4
-  assigned-date: 2023-09-29
-  due-date: 2023-10-09
+  assigned-date: 2025-10-03
+  due-date: 2025-10-13
   questions-link: /materials/homeworks/hw4.pdf
   solutions-link: /materials/homeworks/hw4_sol.pdf
 
@@ -38,16 +38,17 @@ hw5:
   num: 5
   topic: Backtracking and Dynamic Programming	
   num-problems: 4
-  assigned-date: 2023-10-06
-  due-date: 2023-10-16
+  assigned-date: 2025-10-10
+  due-date: 2025-10-20
   questions-link: /materials/homeworks/hw5.pdf
   solutions-link: /materials/homeworks/hw5_sol.pdf
+
 hw6: 
   num: 6
   num-problems: 4
   topic: More Dynamic Programming and Problem-Graph Modeling	
-  assigned-date: 2023-10-13
-  due-date: 2023-10-23
+  assigned-date: 2025-10-17
+  due-date: 2025-10-27
   questions-link: /materials/homeworks/hw6.pdf
   solutions-link: /materials/homeworks/hw6_sol.pdf
 
@@ -55,8 +56,8 @@ hw7:
   num: 7
   topic: DAGs, Shortest Paths	
   num-problems: 4
-  assigned-date: 2023-10-20
-  due-date: 2023-10-30
+  assigned-date: 2025-10-24
+  due-date: 2025-11-03
   questions-link: /materials/homeworks/hw7.pdf
   solutions-link: /materials/homeworks/hw7_sol.pdf
 
@@ -64,8 +65,8 @@ hw8:
   num: 8
   topic: Reductions, NP-Completeness	
   num-problems: 4
-  assigned-date: 2023-11-03
-  due-date: 2023-11-13
+  assigned-date: 2025-11-07
+  due-date: 2025-11-17
   questions-link: /materials/homeworks/hw8.pdf
   solutions-link: /materials/homeworks/hw8_sol.pdf
 
@@ -73,7 +74,7 @@ hw9:
   num: 9
   topic: NP-Completeness, Decidability	
   num-problems: 4
-  assigned-date: 2023-11-10
-  due-date: 2023-11-27
+  assigned-date: 2025-11-14
+  due-date: 2025-12-01
   questions-link: /materials/homeworks/hw9.pdf
   solutions-link: /materials/homeworks/hw9_sol.pdf

@@ -7,7 +7,7 @@ description: Post about the the course integrity policy.
 
 This policy statement is unfortunately necessary, thanks to the actions of a tiny minority of students. If you have any questions or concerns, please don't hesitate to ask in lecture, in lab, during office hours, on Piazza, or by email.
 
-tl;dr Links to an external site.: Be honest. Cite your sources. We mean it. If you need help, please ask. Don't be stupid!
+tl;dr Be honest. Cite your sources. We mean it. If you need help, please ask. Don't be stupid!
 
 #### Our expectations
 
@@ -52,13 +52,14 @@ Don't be an idiot. Just do the work.
 LLMs are strictly forbidden from any course assignments. No it is not ok to use them for inspiration. There is a difference between google and ChatGPT. There is ample evidence that shows LLM usage dimishes learning: 
 
 [1] [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/pdf/2506.08872v1)
+
 [2] [Generative AI Can Harm Learning](https://atelierdesfuturs.org/wp-content/uploads/2025/07/ssrn-4895486.pdf)
 
-I'm sure many students will vehemnetly diagree with me and say LLMs have helped them learn so much. To those people I respond:
+I'm sure many students will vehemently disagree with me and say LLMs have helped them learn so much. To those people I respond:
 
 [3] [Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom](https://www.pnas.org/doi/10.1073/pnas.1821936116)
 
-But maybe I'm wrong. If you truly believe LLMs improve learning outcomes, I would be happy to help you set up and preform a research project that gets quantifiable metrics regarding this issue. Till then, I'm just forbidding it. Widespread LLM usage is a big reason why I have decided to remove homeworks from the course but we got to keep marching forward. 
+But maybe I'm wrong. If you truly believe LLMs improve learning outcomes, I would be happy to help you set up and perform a research project that gets quantifiable metrics regarding this issue. Till then, I'm just forbidding it. Widespread LLM usage is a big reason why I have decided to remove homeworks from the course but we got to keep marching forward. 
 
 **Credit** This webpage was modified from previous [semester(s)](https://courses.engr.illinois.edu/cs374/fa2020/integrity.html).
 

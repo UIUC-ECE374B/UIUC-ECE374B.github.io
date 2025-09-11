@@ -67,6 +67,8 @@ navigation:
     link: /lectures.html    
   - title: Quizzes
     link: /quizzes.html
+  - title: Homeworks
+    link: /homeworks.html
   - title: Exams
     link: /exams.html    
   - title: Policies
