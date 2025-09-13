@@ -30,8 +30,8 @@ quiz04:
   num: 4
   topic: Reg machine conversion 
   date: 2025-09-12
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q04.pdf
+  solutions-link: materials/quizzes/Q04-sols.pdf 
 
 quiz05: 
   num: 5
