@@ -107,6 +107,9 @@ So I think you guys are right, sort of. Union is supposed to be a set operation 
 
 The correct answer would be $\\{\varepsilon\\}$ assuming a regular expression, or simply *undefined* in a strict mathematical interpretation. 
 
+<h4>Interesting Problems </h4>
+
+* [RegEx for the language that includes all strings except 001 by CA Ajitesh Dasaratha](materials/extra_content/RegEx_Ajitesh_1.pdf)
 
 &nbsp;
 <h4>Additional Resources</h4>
