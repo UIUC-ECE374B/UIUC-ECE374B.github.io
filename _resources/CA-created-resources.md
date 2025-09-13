@@ -16,7 +16,7 @@ Creating new content is *difficult* and usually a task for me and the TAs. Howev
 
 - Several in depth problem analyses: 
   - [RegEx for the language that includes all strings except 001 by CA Ajitesh Dasaratha](/lectures/Lec01.html)
-    - Manuscript: [pdf](materials/extra_content/RegEx_Ajitesh_1.pdf)
+    - Manuscript: [pdf](/materials/extra_content/RegEx_Ajitesh_1.pdf)
   - Author: Ajitesh Dasaratha
 
 - [Five-strong-bicolor proof](/lectures/Lec21.html)
