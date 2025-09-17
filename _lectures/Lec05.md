@@ -119,6 +119,10 @@ Consider, $L' = L \cap (0^* 1^*)$
 
 If L' is a known non-regular language then it implies that L is non-regular. Why? Suppose L is regular. Then since $(0^* 1^*)$ is regular, and regular languages are closed under intersection, L' also would be regular. But we know L' is not regular, a contradiction. This means that L is also not regular.
 
+<h4>Interesting Problems </h4>
+
+* [Can a regular langauge only accept strings of prime length by CA Ajitesh Dasaratha](/materials/extra_content/NonReg_PrimeLang_Ajitesh.pdf)
+
 <h4>Additional Resources</h4>
 
 * Textbooks 
