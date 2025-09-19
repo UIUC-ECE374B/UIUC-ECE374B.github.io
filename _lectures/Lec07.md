@@ -12,7 +12,7 @@ layout: lecture
 deliverydate: 2025-09-18
 link-slides: /materials/lecture_slides/lec7.pdf
 link-scribbles: /materials/lecture_slides/lec7_scribbles_fa25.pdf
-link-recording: https://mediaspace.illinois.edu/media/t/1_a3mz4t66
+link-recording: https://mediaspace.illinois.edu/media/t/1_9aqf0vu5/385953912
 pre-recording: 
 ---
 
