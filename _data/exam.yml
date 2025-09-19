@@ -4,8 +4,12 @@ MT1:
   date: 2025-09-25
   samp_exam1: /materials/exams/samples/midterm1-fa22.pdf
   samp_exam2: /materials/exams/samples/midterm1-sp23.pdf
+  samp_exam3: /materials/exams/samples/midterm1-fa23.pdf
+  samp_exam4: /materials/exams/samples/midterm1-fa24.pdf
   samp_exam1_sol: /materials/exams/samples/midterm1-sol-fa22.pdf
   samp_exam2_sol: /materials/exams/samples/midterm1-sol-sp23.pdf
+  samp_exam3_sol: /materials/exams/samples/midterm1-sol-fa23.pdf
+  samp_exam4_sol: /materials/exams/samples/midterm1-sol-fa24.pdf
   skillset: materials/exams/mt_1_skillset.pdf
   cheat_sheet: materials/exams/main_MT1.pdf
   exam_questions: #materials/exams/midterm1-vf-fa23.pdf
@@ -17,8 +21,12 @@ MT2:
   date: 2025-11-04
   samp_exam1: /materials/exams/samples/midterm2-fa22.pdf
   samp_exam2: /materials/exams/samples/midterm2-sp23.pdf
+  samp_exam3: /materials/exams/samples/midterm2-fa23.pdf
+  samp_exam4: /materials/exams/samples/midterm2-fa24.pdf
   samp_exam1_sol: /materials/exams/samples/midterm2-sol-fa22.pdf
   samp_exam2_sol: /materials/exams/samples/midterm2-sol-sp23.pdf
+  samp_exam3_sol: /materials/exams/samples/midterm2-sol-fa23.pdf
+  samp_exam4_sol: /materials/exams/samples/midterm2-sol-fa24.pdf
   skillset: materials/exams/mt_2_skillset.pdf
   cheat_sheet: materials/exams/main_MT2.pdf
   exam_questions: #materials/exams/midterm2-vf-fa23.pdf
@@ -30,8 +38,12 @@ MT3:
   date: 2025-12-04
   samp_exam1: /materials/exams/samples/midterm3-fa22.pdf
   samp_exam2: /materials/exams/samples/midterm3-sp23.pdf
+  samp_exam3: /materials/exams/samples/midterm3-fa23.pdf
+  samp_exam4: /materials/exams/samples/midterm3-fa24.pdf
   samp_exam1_sol: /materials/exams/samples/midterm3-sol-fa22.pdf
   samp_exam2_sol: /materials/exams/samples/midterm3-sol-sp23.pdf
+  samp_exam3_sol: /materials/exams/samples/midterm3-sol-fa23.pdf
+  samp_exam4_sol: /materials/exams/samples/midterm3-sol-fa24.pdf
   skillset: materials/exams/mt_3_skillset.pdf
   cheat_sheet: materials/exams/main_MT3.pdf
   exam_questions: #materials/exams/midterm3-vf-fa23.pdf
