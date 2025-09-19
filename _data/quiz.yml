@@ -37,8 +37,8 @@ quiz05:
   num: 5
   topic: Proving non-regularity 
   date: 2025-09-17
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q05.pdf
+  solutions-link: materials/quizzes/Q05-sols.pdf  
 
 quiz06: 
   num: 6
