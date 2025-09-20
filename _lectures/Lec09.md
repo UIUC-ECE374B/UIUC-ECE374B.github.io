@@ -69,6 +69,55 @@ example: $T(n) = 2T(n/2)+cn$ split into 2 after each node but the running time c
 
 example: $T(n) = 2T(n/2) + cn$ can be rewritten as $T(n) = 2(2T(n/4)+cn/2)+cn = 4T(n/4)+cn+cn$. This replacement can occur $log(n)$ times because $n$ divides by 2 each time. Every time the replacement occurs an extra $cn$ is added. This means the eventual expansion will be $T(n) = cn+...cn = cnlog(n)$ which has a running time of $O(nlog(n))$.
 
+### Relevent LeetCode Practice (by Tristan Yang)
+
+1. [LeetCode 912](https://leetcode.com/problems/sort-an-array/) — Sort an Array *(Medium)*
+
+  - **Relevance:** Directly implements **MergeSort** from the slides (split, recurse, merge) and lets you analyze  
+    $T(n) = 2T(n/2) + cn = \Theta(n \log n)$.  
+    $T(n) = 2T(n/2) + cn = \Theta(n \log n)$  
+    $T(n) = 2T(n/2) + cn = O(n \log n)$ via recursion trees.
+  - **ECE 374 Process:** Write `mergeSort(A[1..r])`, prove merge by induction, then MergeSort by induction; argue linear work per level, $\log_2 n$ levels.  
+  - **Resource:** CLRS mergesort notes / any mergesort code walkthrough.  
+  - **Takeaway:** *Divide-and-conquer + linear combine ⇒ $n \log n$.*
+
+2. [LeetCode 704](https://leetcode.com/problems/binary-search) — Binary Search *(Easy)*
+
+  - **Relevance:** Matches the slide’s **BinarySearch(A[a..b], x)** and recurrence  
+    $T(n) = T(\lfloor n/2 \rfloor) + O(1) = O(\log n)$.  
+  - **ECE 374 Process:** Maintain loop/recurrence invariant on half-interval; prove termination and correctness; count steps by halving.  
+  - **Resource:** LeetCode editorial.  
+  - **Takeaway:** *Halving subproblem size ⇒ logarithmic depth.*
+
+3. [LeetCode 50](https://leetcode.com/problems/powx-n/) — Pow(x, n) *(Medium)*
+
+  - **Relevance:** Classic **recursion / self-reduction**: exponentiation by squaring with  
+    $T(n) = T(n/2) + O(1) = O(\log n)$.  
+    Ties to expansion and recursion-tree reasoning.  
+  - **ECE 374 Process:** Define base cases, reduce problem to size $n/2n/2n/2$, prove by induction; compute work per level is constant.  
+  - **Resource:** NeetCode video.  
+  - **Takeaway:** *Self-reduction (recursion) shrinks input geometrically.*
+
+---
+
+**Supplemental Problems**
+
+- **[LeetCode 278](https://leetcode.com/problems/first-bad-version/) — First Bad Version**  
+  Pure binary search on search space with $O(\log n)$ halving recurrence.
+
+- **[LeetCode 33](https://leetcode.com/problems/search-in-rotated-sorted-array/) — Search in Rotated Sorted Array**  
+  Binary search on **piecewise-sorted** intervals.
+
+- **[LeetCode 88](https://leetcode.com/problems/merge-sorted-array/) — Merge Sorted Array**  
+  Implements the **merge** subroutine from slides (two-pointer linear pass).
+
+- **[LeetCode 875](https://leetcode.com/problems/koko-eating-bananas/) — Koko Eating Bananas**  
+  Another **binary search on feasible answer** (decision → optimization reduction).
+
+
+
+
+
 <h4>Additional Resources</h4>
 
 * Textbooks 
