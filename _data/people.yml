@@ -803,7 +803,7 @@ ajitesh:
     OHs: 
       OH1:
         time-start: "12:00"
-        time-end: "14:00"
+        time-end: "13:00"
         day: Monday
         location: ECEB 4036
       OH2:
@@ -832,8 +832,8 @@ ranjani:
         day: Friday
         location: ECEB 3001
       OH3:
-        time-start: "12:00"
-        time-end: "14:00"
+        time-start: "11:00"
+        time-end: "12:00"
         day: Thursday
         location: ECEB 4036
 
