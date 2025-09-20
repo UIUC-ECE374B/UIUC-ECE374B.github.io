@@ -44,8 +44,8 @@ quiz06:
   num: 6
   topic: Context free grammars 
   date: 2025-09-19
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q06.pdf
+  solutions-link: materials/quizzes/Q06-sols.pdf   
 
 quiz07: 
   num: 7
