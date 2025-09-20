@@ -235,7 +235,7 @@ owen:
         time-start: "17:00"
         time-end: "18:00"
         day: Tuesday
-        location: ECEB 4036  
+        location: ECEB 5034  
       OH2:
         time-start: "14:00"
         time-end: "15:00"
@@ -831,7 +831,11 @@ ranjani:
         time-end: "14:00"
         day: Friday
         location: ECEB 3001
-
+      OH3:
+        time-start: "12:00"
+        time-end: "14:00"
+        day: Thursday
+        location: ECEB 4036
 
 tristan:
     display_name: "Tristan Yang"
