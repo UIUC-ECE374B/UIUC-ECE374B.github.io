@@ -98,8 +98,6 @@ example: $T(n) = 2T(n/2) + cn$ can be rewritten as $T(n) = 2(2T(n/4)+cn/2)+cn = 
   - **Resource:** NeetCode video.  
   - **Takeaway:** *Self-reduction (recursion) shrinks input geometrically.*
 
----
-
 **Supplemental Problems**
 
 - **[LeetCode 278](https://leetcode.com/problems/first-bad-version/) — First Bad Version**  
