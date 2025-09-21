@@ -14,6 +14,17 @@ people:
 
 Creating new content is *difficult* and usually a task for me and the TAs. However, a few CAs have taken up the challenge of making new content: 
 
+
+
+- Reference to LeetCode problems in algorithms lectures notes: 
+  - [Lec9](/lectures/Lec09.html)
+  - Author: Tristan Yang
+
+- Extra notes one course concepts: 
+  - [Context-sensitive vs. context-free grammars by CA Ranjani Ramesh](/lectures/Lec07.html)
+    - Manuscript: [pdf](/materials/extra_content/CSGvsCFG_Ranjani.pdf)
+  - Author: Ranjani Ramesh
+
 - Several in depth problem analyses: 
   - [RegEx for the language that includes all strings except 001 by CA Ajitesh Dasaratha](/lectures/Lec01.html)
     - Manuscript: [pdf](/materials/extra_content/RegEx_Ajitesh_1.pdf)
