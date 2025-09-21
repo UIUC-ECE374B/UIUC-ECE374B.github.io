@@ -86,7 +86,7 @@ title: Exams
             <br>     
         <!-- Sample Exam 3 -->
             {% if item.samp_exam3 %}
-            <a href="{{ site.base }}{{ item.samp_exam2 }}"
+            <a href="{{ site.base }}{{ item.samp_exam3 }}"
                 style="text-decoration: none">
                 <img class="homework-icon"
                     alt="{{ iteml[0] }} sample exam"
@@ -95,7 +95,7 @@ title: Exams
             </a>
             {% endif %}
             {% if item.samp_exam3_sol %}
-            <a href="{{ site.base }}{{ item.samp_exam2_sol }}"
+            <a href="{{ site.base }}{{ item.samp_exam3_sol }}"
                 style="text-decoration: none">
                 <img class="homework-icon"
                     alt="{{ iteml[0] }} exam solutions"
@@ -105,7 +105,7 @@ title: Exams
             {% endif %}            
         <!-- Sample Exam 4 -->
             {% if item.samp_exam4 %}
-            <a href="{{ site.base }}{{ item.samp_exam2 }}"
+            <a href="{{ site.base }}{{ item.samp_exam4 }}"
                 style="text-decoration: none">
                 <img class="homework-icon"
                     alt="{{ iteml[0] }} sample exam"
@@ -114,7 +114,7 @@ title: Exams
             </a>
             {% endif %}
             {% if item.samp_exam4_sol %}
-            <a href="{{ site.base }}{{ item.samp_exam2_sol }}"
+            <a href="{{ site.base }}{{ item.samp_exam4_sol }}"
                 style="text-decoration: none">
                 <img class="homework-icon"
                     alt="{{ iteml[0] }} exam solutions"
