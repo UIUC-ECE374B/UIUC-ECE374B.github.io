@@ -211,7 +211,7 @@ suyuan:
     display_name: "Suyuan Wang"
     webpage: "https://www.linkedin.com/in/suyuanw8197a724a/"
     netid: suyuan2
-    github: 
+    github: wsylxy
     role: grad
     image: /img/people/suyuan.jpg
     bio: Graduate Course Assistant
@@ -226,7 +226,7 @@ owen:
     display_name: "Owen Xu"
     netid: jinyuxu2
     webpage: https://www.linkedin.com/in/owen-xu-38b097251/
-    github: 112728430
+    github: jinyuxu2
     role: grad
     image: /img/people/owen.jpg
     bio: Graduate Course Assistant
@@ -261,7 +261,7 @@ ben:
     display_name: "Ben Kim"
     netid: bdkim4
     webpage: https://www.linkedin.com/in/bkim34/
-    # github: Chrizzel7
+    github: bkim34
     role: grad
     image: /img/people/ben.jpeg
     bio: Undergraduate Course Assistant
