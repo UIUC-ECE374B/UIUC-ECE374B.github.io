@@ -110,7 +110,9 @@ example: $T(n) = 2T(n/2) + cn$ can be rewritten as $T(n) = 2(2T(n/4)+cn/2)+cn = 
   Another **binary search on feasible answer** (decision → optimization reduction).
 
 
+<h4>Interesting Problems </h4>
 
+* [Why do all comparison-based sorting algorithms have to run in O(n log n)? by CA Ajitesh Dasaratha](/materials/extra_content/Sorting_Lower_Bound_Ajitesh.pdf)
 
 
 <h4>Additional Resources</h4>
