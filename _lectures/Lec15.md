@@ -141,6 +141,48 @@ for each u in the computed order do
 
 The above algorithm  runs in time $O(m + n)$ and correctly outputs all the SCCs of G.
 
+
+
+### Relevent LeetCode Practice (by Tristan Yang)
+
+1. [LeetCode 210](https://leetcode.com/problems/course-schedule-ii/) — Course Schedule II *(Medium)*
+    - **Relevance:** Requires producing an actual topological order of a directed acyclic graph (or detecting a cycle if one exists).
+    - **ECE 374 Process:** Build the directed graph from course prerequisites. Then either: use Kahn's algorithm (maintain an in-degree=0 queue and remove nodes one-by-one) or use DFS with 3-colors (marking nodes white/gray/black) and output nodes in decreasing post-order (which yields a topo sort). Runs in $O(n+m)$.
+    - **Resource:** CP-Algorithms notes on Topological Sorting (both Kahn's and DFS methods).
+    - **Takeaway:** A graph is a DAG if and only if it has a topological order. In practice, using DFS post-order or Kahn's BFS both produce a valid topo sort for DAGs.
+
+2. [LeetCode 802](https://leetcode.com/problems/find-eventual-safe-states/) — Find Eventual Safe States *(Medium)*
+    - **Relevance:** Identifies nodes that are not part of any cycle (i.e. eventually reach a terminal node). This is essentially finding vertices in a directed graph that belong to "acyclic" portions, using an approach akin to reasoning on the SCC condensation graph.
+    - **ECE 374 Process:** Build the reverse graph (reverse all edges). Start with all nodes that have no outgoing edges in the original graph (these are terminal "safe" nodes). Perform a Kahn-like process: put all such sinks in a queue and remove them, decrementing the out-degree of their predecessors (in the original graph). Any predecessor that loses all outgoing edges becomes safe and is added to the queue. Nodes never marked safe are part of cycles.
+    - **Resource:** Descriptions of the reverse-graph + Kahn's algorithm trick for detecting cycle-free nodes.
+    - **Takeaway:** Many queries about "eventually safe" (cycle-free) nodes reduce to iteratively peeling off sink nodes — conceptually working on the DAG of strongly connected components.
+
+3. [LeetCode 269](https://leetcode.com/problems/alien-dictionary/) — Alien Dictionary *(Hard)*
+    - **Relevance:** A real-world application of topological sorting where nodes are characters and edges are precedence constraints derived from dictionary order. It deals with multiple valid orders and detecting inconsistencies (cycles).
+    - **ECE 374 Process:** Read the list of words. Compare each adjacent pair of words to find the first differing character, and create a directed edge from that char of the first word to that of the second word. (If a word is a prefix of a later word, that's invalid ordering.) Then perform a topological sort on the graph of letters. If you detect a cycle or if the result doesn't include all letters that appeared, the dictionary order is invalid.
+    - **Resource:** Detailed LeetCode editorials (for correctly building the graph and handling edge cases).
+    - **Takeaway:** Modeling is critical: turn the problem's implicit constraints into a directed graph. Then apply topo-sort to derive an order or find a contradiction (cycle).
+
+**Supplemental Problems**
+
+- **[LeetCode 1557](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) — Minimum Number of Vertices to Reach All Nodes**  
+  In a DAG, the answer is simply all nodes with in-degree 0 (the sources), since every other node is reachable from some source. A straightforward in-degree analysis.
+
+- **[LeetCode 2192](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-dag/) — All Ancestors of a Node in a DAG**  
+  Compute for each node the set of nodes that can reach it (its ancestors). Can be solved via a topological order and dynamic programming (union of ancestor sets from each node's predecessors).
+
+- **[LeetCode 444](https://leetcode.com/problems/sequence-reconstruction/) — Sequence Reconstruction**  
+  Checks if a given sequence is the unique topological order of some directed acyclic graph. Use Kahn's algorithm: the topological order is unique if and only if at each step there is exactly one available node (in-degree 0) to choose.
+
+- **[LeetCode 2050](https://leetcode.com/problems/parallel-courses-iii/) — Parallel Courses III**  
+  Longest path in a DAG (with each node having a duration). Topologically sort the graph, then compute for each course the time to finish it as its own duration plus the maximum finish time of its prerequisites.
+
+- **[LeetCode 2360](https://leetcode.com/problems/longest-cycle-in-a-graph/) — Longest Cycle in a Graph**  
+  Directed graph where each node has out-degree ≤ 1. Find the length of the longest directed cycle. Can be solved with DFS and cycle detection (timestamps or colors) or by finding strongly connected components. The out-degree constraint simplifies cycle structure.
+
+- **[LeetCode 841](https://leetcode.com/problems/keys-and-rooms/) — Keys and Rooms**  
+  A simple directed reachability problem: starting from room 0, use the keys to visit rooms (edges from a room to the rooms its keys unlock). Just do a DFS/BFS to see if all rooms can be reached, reinforcing basic graph traversal.
+
 <h4>Additional Resources</h4>
 
 * Textbooks 

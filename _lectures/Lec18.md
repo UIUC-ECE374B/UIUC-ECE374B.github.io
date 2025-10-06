@@ -155,6 +155,46 @@ Prim_ComputeMSTv3
     return T
 ```
 
+### Relevent LeetCode Practice (by Tristan Yang)
+
+1. [LeetCode 1584](https://leetcode.com/problems/min-cost-to-connect-all-points/) — Min Cost to Connect All Points *(Medium)*
+    - **Relevance:** It's a pure MST problem on a complete graph of points with Manhattan distance weights. Great for demonstrating Prim's vs Kruskal's approaches and complexity considerations (dense graph).
+    - **ECE 374 Process:** Model as complete graph with Manhattan distance weights. Use Prim's algorithm: start from arbitrary point, maintain minimum edge weights to growing MST, extract-min and update keys. Implement in $O(n^2)$ time using array or $O(m \log n)$ with min-heap. Alternatively use Kruskal's: sort all edges by weight, use Union-Find to connect components, stop after $n-1$ edges added.
+    - **Resource:** LeetCode editorial for Min Cost to Connect All Points.
+    - **Takeaway:** The MST total cost is invariant of the starting node. Prim's and Kruskal's are two greedy methods to find MSTs. The cut property guarantees that the smallest edge crossing any cut is safe to include (underpins both algorithms).
+
+2. [LeetCode 1135](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) — Connecting Cities With Minimum Cost *(Medium)*
+    - **Relevance:** A textbook example of Kruskal's algorithm with a graph given by a list of edges (usually sparser than the complete graph in problem 1584).
+    - **ECE 374 Process:** Sort the given edges by weight. Iterate through them in increasing order and use DSU to keep track of components. Union the endpoints of an edge if they are currently in different components (include that edge in the MST). Stop when you've added $n-1$ edges or if you run out of edges before fully connecting (then it's impossible to connect all cities).
+    - **Resource:** LeetCode editorial for Connecting Cities With Minimum Cost.
+    - **Takeaway:** Kruskal's correctness comes from the cut property: the cheapest edge that connects two separate components is always part of some MST. Using DSU, we implement this efficiently in $O(m \log m)$ time (sorting edges dominates).
+
+3. [LeetCode 684](https://leetcode.com/problems/redundant-connection/) — Redundant Connection *(Medium)*
+    - **Relevance:** This problem uses DSU to detect cycles by processing edges one by one, effectively mirroring the cycle-detection step in Kruskal's algorithm.
+    - **ECE 374 Process:** Start with $n$ isolated nodes. For each edge, check if its two endpoints are already in the same component via DSU. If not, union them (connect the components); if yes, that edge would create a cycle and is therefore the redundant one (return it). This is exactly how Kruskal "skips" edges that would form a cycle.
+    - **Resource:** LeetCode editorial for Redundant Connection.
+    - **Takeaway:** Union-Find is a powerful tool for cycle detection in an undirected graph. It underpins Kruskal's MST algorithm by efficiently determining whether adding an edge will form a cycle.
+
+**Supplemental Problems**
+
+- **[LeetCode 1319](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) — Number of Operations to Make Network Connected**  
+  A DSU connectivity problem: given a graph with n nodes, determine how many extra edges are needed to make it connected. Union all given edges; count components. If there are $c$ components and at least $c-1$ spare edges (edges beyond $n-1$), answer is $c-1$ (connect components); otherwise, it's impossible (-1).
+
+- **[LeetCode 1202](https://leetcode.com/problems/smallest-string-with-swaps/) — Smallest String With Swaps**  
+  Uses DSU in a non-weight context: union indices that can be swapped; each connected component of indices can have its characters sorted independently to achieve the lexicographically smallest result.
+
+- **[LeetCode 721](https://leetcode.com/problems/accounts-merge/) — Accounts Merge**  
+  Another DSU grouping application: union all email addresses that belong to the same person (if two accounts share an email, they're connected). Then collect emails per connected component and sort them for the merged account output.
+
+- **[LeetCode 1631](https://leetcode.com/problems/path-with-minimum-effort/) — Path With Minimum Effort**  
+  Can be solved by binary search + BFS, but also via MST: consider each cell as a node and edges weighted by the absolute height difference. The minimum effort to connect start to end equals the minimum possible "maximum edge" on a path, which is given by the MST (specifically, find when start and end become connected as you add edges in increasing order of weight).
+
+- **[LeetCode 261](https://leetcode.com/problems/graph-valid-tree/) — Graph Valid Tree**  
+  Determine if an undirected graph is a tree (one component, exactly n-1 edges). Using DSU: union all edges, if you ever try to union two already-connected nodes, there's a cycle. In the end, check that you used n-1 edges and have exactly one component.
+
+- **[LeetCode 305](https://leetcode.com/problems/number-of-islands-ii/) — Number of Islands II**  
+  A dynamic connectivity problem. We add land cells one by one and need to report the number of islands after each addition. Use DSU: initially all water. Each time a new land appears, treat it as a new component and union it with any adjacent land components. Keep track of the component count as it evolves.
+
 <h4>Additional Resources</h4>
 
 * Textbooks 

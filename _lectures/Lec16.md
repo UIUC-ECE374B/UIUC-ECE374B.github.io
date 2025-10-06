@@ -89,6 +89,52 @@ The time complexity of Dijkstra's algorithm with a priority queue is O((|E| + |V
 
 
 
+### Relevent LeetCode Practice (by Tristan Yang)
+
+1. [LeetCode 743](https://leetcode.com/problems/network-delay-time/) — Network Delay Time *(Medium)*
+    - **Relevance:** The canonical single-source shortest path problem on a directed weighted graph (with all edges having non-negative weight).
+    - **ECE 374 Process:** Use Dijkstra's algorithm starting from the given source node k. Maintain a min-heap of (distance, node) pairs; repeatedly extract the nearest unprocessed node and relax its outgoing edges. After processing, the answer is the maximum distance to any node (or report -1 if some node is unreachable).
+    - **Resource:** NeetCode video on Network Delay Time.
+    - **Takeaway:** Dijkstra explores nodes in increasing order of tentative distance, ensuring that the first time you finalize a node's distance, you have found the shortest path to it.
+
+2. [LeetCode 787](https://leetcode.com/problems/cheapest-flights-within-k-stops/) — Cheapest Flights Within K Stops *(Medium)*
+    - **Relevance:** A shortest path problem with an added constraint on the number of edges (stops). This can be approached by modified BFS/DP or an expanded state-space Dijkstra.
+    - **ECE 374 Process:** Three approaches: DP/Bellman-Ford for at most K+1 edges (K relaxations). BFS in layers (each layer represents one more stop), with cost pruning to avoid superfluous exploration. Dijkstra on an expanded state space (state = node + stops used), ignoring or not exploring paths that exceed K stops.
+    - **Resource:** NeetCode video on Cheapest Flights Within K Stops.
+    - **Takeaway:** You can encode the "at most K stops" constraint by augmenting the state with the count of stops, effectively adding a layer dimension to the search (and requiring careful handling in the algorithm).
+
+3. [LeetCode 1368](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) — Minimum Cost to Make at Least One Valid Path in a Grid *(Hard)*
+    - **Relevance:** A classic 0-1 BFS problem (edge weights are only 0 or 1). It exemplifies when a deque-based BFS can outperform a generic priority queue approach.
+    - **ECE 374 Process:** Model the grid moves as a graph where moving in the preferred direction of an arrow has cost 0, and changing direction (going against the arrow) costs 1. Use a deque for 0-1 BFS: push neighbors reached with 0 cost to the front, and neighbors reached with cost 1 to the back. The first time you reach the target cell, you have the minimum cost.
+    - **Resource:** CP-Algorithms description of 0-1 BFS.
+    - **Takeaway:** 0-1 BFS is an optimization of Dijkstra when edge weights are only 0 or 1. It avoids the overhead of heap operations by using a deque to maintain nodes to explore.
+
+4. [LeetCode 1976](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/) — Number of Ways to Arrive at Destination *(Medium)*
+    - **Relevance:** Asks for counting the number of shortest paths, not just computing one distance — a common extension of shortest path problems.
+    - **ECE 374 Process:** First, run Dijkstra to find the shortest distance to each node from the start. Then, you can count paths either during the Dijkstra (maintaining a count array and updating it whenever a shortest distance is found or matched) or after: perform a DP in order of increasing distance. For each edge $(u,v)$, if dist[u] + w == dist[v], add the number of ways to reach $u$ to the number of ways to reach $v$. Remember to mod the results if required.
+    - **Resource:** NeetCode video on Number of Ways to Arrive at Destination.
+    - **Takeaway:** Combine Dijkstra with a counting mechanism: when a new shorter path to a node is found, reset the count; when an equally short path is found, increment the count. This yields the total number of distinct shortest paths.
+
+**Supplemental Problems**
+
+- **[LeetCode 1786](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/) — Number of Restricted Paths From First to Last Node**  
+  Variation on path counting: first run Dijkstra from the last node to get distances to every node. Then count, via DFS or DP, how many paths from 1 to n are "restricted" (each step going to a node with smaller distance to n). This forms a DAG by distance.
+
+- **[LeetCode 1129](https://leetcode.com/problems/shortest-path-with-alternating-colors/) — Shortest Path with Alternating Colors**  
+  Graph with red and blue edges. Use BFS on a state space where state includes the current node and the color of the edge just taken. Ensure that you alternate colors as you traverse.
+
+- **[LeetCode 847](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) — Shortest Path Visiting All Nodes**  
+  A BFS on the state = (node, bitmask_of_visited_nodes). This is essentially the Traveling Salesman Problem on a small graph, solved by BFS since $2^n$ states with n up to maybe 12 or so.
+
+- **[LeetCode 505](https://leetcode.com/problems/the-maze-ii/) — The Maze II**  
+  A shortest distance problem in a grid where you "roll" a ball until it hits a wall. Use Dijkstra because each move covers potentially many cells and you accumulate distance. Similar to a standard grid BFS but with different transition rules.
+
+- **[LeetCode 499](https://leetcode.com/problems/the-maze-iii/) — The Maze III**  
+  Extension of Maze II: find not only the shortest distance for the ball to stop at the hole, but also the lexicographically smallest path string among shortest paths. This can be handled by augmenting state with the path or by custom comparison in the priority queue (distance first, then path string).
+
+- **[LeetCode 126](https://leetcode.com/problems/word-ladder-ii/) — Word Ladder II**  
+  Find all shortest transformation sequences, not just one. Use BFS from the begin word to find the distance to each word (like Word Ladder I), then build a predecessor graph of word transitions. Finally, use backtracking (DFS) from the end word to construct all sequences that achieve that shortest distance.
+
 <h4>Additional Resources</h4>
 
 * Textbooks 

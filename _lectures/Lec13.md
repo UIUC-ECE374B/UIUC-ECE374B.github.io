@@ -107,6 +107,57 @@ Our very own Hamza Husain has dedicated himself to giving you even more DP probl
 - [Extra DP Lab Questions](/materials/extra_content/lab12-new.pdf)
 - [Extra DP Lab Solutions](/materials/extra_content/lab12-sol-new.pdf)
 
+
+
+### Relevent LeetCode Practice (by Tristan Yang)
+
+1. [LeetCode 72](https://leetcode.com/problems/edit-distance/) — Edit Distance *(Hard)*
+    - **Relevance:** The canonical DP problem (Levenshtein distance). It directly uses the lecture's insert/delete/replace recurrence.
+    - **ECE 374 Process:** Let $dp[i][j]$ be the edit distance between the first $i$ characters of string A and the first $j$ characters of string B. The recurrence is: $dp[i][j] = \min\Big(dp[i-1][j] + 1, dp[i][j-1] + 1, dp[i-1][j-1] + [A_i \neq B_j]\Big)$, where the last term adds 0 if $A_i = B_j$ (no cost for match) or 1 if $A_i \neq B_j$ (cost for replace). This can be computed via memoization or bottom-up tabulation in $O(mn)$ time. (Space can be optimized to $O(\min(m,n))$ by only keeping two rows.)
+    - **Resource:** NeetCode video on Edit Distance.
+    - **Takeaway:** Edit distance frames string alignment as a path with three possible transitions (insert, delete, replace).
+
+2. [LeetCode 1143](https://leetcode.com/problems/longest-common-subsequence/) — Longest Common Subsequence *(Medium)*
+    - **Relevance:** Straightforward application of the lecture's subsequence DP. It's a fundamental string DP that many others build on.
+    - **ECE 374 Process:** Define $dp[i][j]$ as the length of the LCS of A's first $i$ characters and B's first $j$ characters. The recurrence: if $A_i = B_j$, then $dp[i][j] = dp[i-1][j-1] + 1$; otherwise $dp[i][j] = \max(dp[i-1][j], dp[i][j-1])$. Fill this 2D table row-by-row or column-by-column. This problem is closely related to edit distance and other sequence alignment tasks.
+    - **Resource:** NeetCode video on LCS.
+    - **Takeaway:** LCS reveals the optimal substructure in overlapping sequences; edit distance is a complementary problem where mismatches incur a cost instead of breaking sequence continuity.
+
+3. [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/) — Longest Increasing Subsequence *(Medium)*
+    - **Relevance:** Illustrates a simple 1D DP recurrence for sequences (as in the lecture) and also introduces an optimization.
+    - **ECE 374 Process:** A straightforward DP: $dp[i] = 1 + \max\{dp[j] : j < i, A[j] < A[i]\}$ (if no such $j$, then $dp[i]=1$). This yields an $O(n^2)$ solution. An optimized approach uses a greedy strategy with binary search to achieve $O(n \log n)$ time.
+    - **Resource:** NeetCode video on LIS (covering both DP and the greedy+binary search method).
+    - **Takeaway:** LIS highlights how a DP over a single sequence can sometimes be improved with greedy methods and specialized data structures, although the classic DP is easier to implement and reason about.
+
+4. [LeetCode 139](https://leetcode.com/problems/word-break/) — Word Break *(Medium)*
+    - **Relevance:** Matches the lecture's string segmentation problem (splitting a string into valid dictionary words).
+    - **ECE 374 Process:** Use a boolean DP over the prefix of the string: let $dp[i]$ be true if the substring $s[0..i-1]$ (length $i$ prefix) can be segmented into valid words. Then $dp[i]$ is true if there exists some $j < i$ such that $dp[j]$ is true and $s[j:i]$ (the substring from $j$ to $i-1$) is in the dictionary. Solve with memoized recursion or iterative loops.
+    - **Resource:** NeetCode video on Word Break.
+    - **Takeaway:** Using DP on string prefixes combined with dictionary membership efficiently solves segmentation problems that would be exponential with naive recursion.
+
+**Supplemental Problems**
+
+- **[LeetCode 131](https://leetcode.com/problems/palindrome-partitioning/) — Palindrome Partitioning**  
+  Backtracking/DP hybrid: partition a string into palindromes. Related to segmentation DP, but with the extra step of checking palindromes. (Can also be solved with DP for minimum cuts.)
+
+- **[LeetCode 132](https://leetcode.com/problems/palindrome-partitioning-ii/) — Palindrome Partitioning II**  
+  Minimum-cuts version of palindrome partitioning. Use DP to find the minimum number of cuts needed for a palindrome partition of the string (refines the segmentation idea with an optimization objective).
+
+- **[LeetCode 115](https://leetcode.com/problems/distinct-subsequences/) — Distinct Subsequences**  
+  Counts how many times a sequence (string) appears as a subsequence of another string. Extends the DP idea of subsequences (like LCS) to count ways instead of length.
+
+- **[LeetCode 583](https://leetcode.com/problems/delete-operation-for-two-strings/) — Delete Operation for Two Strings**  
+  An edit-distance variant restricted to deletions on both strings. Essentially asks for the length of LCS (since deleting all non-LCS chars is optimal), linking it back to the LCS/ED concepts.
+
+- **[LeetCode 1092](https://leetcode.com/problems/shortest-common-supersequence/) — Shortest Common Supersequence**  
+  The counterpart to LCS: find the shortest string that has both given strings as subsequences. Involves computing the LCS and then merging the two strings accordingly.
+
+- **[LeetCode 97](https://leetcode.com/problems/interleaving-string/) — Interleaving String**  
+  DP on two strings: determine if a third string is an interleaving of two others. Use a 2D DP (or DFS+memo) to track if prefix(i,j) of the third can be formed by prefix i of s1 and prefix j of s2.
+
+- **[LeetCode 673](https://leetcode.com/problems/number-of-longest-increasing-subsequences/) — Number of Longest Increasing Subsequences**  
+  An extension of the LIS problem: in addition to finding the length of LIS, count how many increasing subsequences achieve that length. Involves maintaining counts alongside the LIS DP.
+
 <h4>Additional Resources</h4>
 
 * Textbooks 

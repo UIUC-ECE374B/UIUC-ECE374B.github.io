@@ -66,6 +66,45 @@ The worst-case time complexity of the quickselect algorithm can be improved from
 
 One way to select a good pivot element is to use the "median-of-medians" algorithm, which guarantees that the chosen pivot element is close to the true median of the subarray. The median-of-medians algorithm works by recursively dividing the subarray into groups of five elements, computing the median of each group, and then recursively computing the median of the medians until a single pivot element is found.
 
+### Relevent LeetCode Practice (by Tristan Yang)
+
+1. [LeetCode 215](https://leetcode.com/problems/kth-largest-element-in-an-array/) — Kth Largest Element in an Array *(Medium)*
+    - **Relevance:** Exactly the selection problem from the lecture; implement QuickSelect and reason about $T(n) = T(k-1) + T(n-k) + O(n)$, with worst-case $O(n^2)$. Mention the Median-of-Medians (MoM) algorithm to guarantee linear time.
+    - **ECE 374 Process:** Partition the array into $A_{<a}, \{a\}, A_{>a}$ around a pivot $a$, then recurse on the relevant side. Using MoM to choose pivots yields split sizes $\le \frac{7n}{10}$, hence $T(n) \le T(n/5) + T(7n/10) + O(n) = O(n)$.
+    - **Resource:** LeetCode editorial (Quickselect + proof sketch).
+    - **Takeaway:** Selection = reduce problem via partitioning; MoM gives deterministic $O(n)$ solution.
+
+2. [LeetCode 4](https://leetcode.com/problems/median-of-two-sorted-arrays/) — Median of Two Sorted Arrays *(Hard)*
+    - **Relevance:** Median-finding by binary partition (divide & conquer flavor); contrasts with unsorted selection + MoM from the notes.
+    - **ECE 374 Process:** Use two-array binary search to maintain balanced split between two sorted arrays; runs in $O(\log(\min(m,n)))$ time.
+    - **Resource:** LeetCode editorial proof using partition invariants.
+    - **Takeaway:** Median of two sorted arrays via partitioning = logarithmic divide & conquer.
+
+3. [LeetCode 43](https://leetcode.com/problems/multiply-strings/) — Multiply Strings *(Medium)*
+    - **Relevance:** Big-integer multiplication from the notes (grade-school method $\Theta(n^2)$). Discuss how Karatsuba's algorithm reduces 4 recursive multiplications to 3, so $T(n) = 3T(n/2) + O(n) = O(n^{\log_2 3})$.
+    - **ECE 374 Process:** Implement the grade-school multiplication; then outline Karatsuba's trick: $(b_L x + b_R)(c_L x + c_R)$ is computed with three recursive products instead of four.
+    - **Resource:** CP-algorithms article on Karatsuba multiplication.
+    - **Takeaway:** Algebraic trick ⇒ fewer recursive multiplications ⇒ better asymptotic runtime.
+
+**Supplemental Problems**
+
+- **[LeetCode 23](https://leetcode.com/problems/merge-k-sorted-lists/) — Merge k Sorted Lists**  
+  Ties to the pre-lecture teaser (k-way merge vs 2-way merge) and the divide-and-conquer pairing strategy.
+
+- **[LeetCode 75](https://leetcode.com/problems/sort-colors/) — Sort Colors**  
+  Dutch National Flag problem = 3-way partitioning (same pivot-bucketing idea as Quicksort).
+
+- **[LeetCode 347](https://leetcode.com/problems/top-k-frequent-elements/) — Top K Frequent Elements**  
+  Selection-style problem: use bucket sort / heap / Quickselect partitioning to find k most frequent items.
+
+- **[LeetCode 327](https://leetcode.com/problems/count-of-range-sum/) — Count of Range Sum**  
+  Uses prefix sums + merge-sort-based counting (same pattern as the "Reverse Pairs" problem).
+
+- **[LeetCode 315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) — Count of Smaller Numbers After Self**  
+  Another merge-sort counting problem with an identical divide-and-conquer recurrence.
+
+- **[LeetCode 912](https://leetcode.com/problems/sort-an-array/) — Sort an Array (MergeSort implementation)**  
+  Explicit two-way split vs. hypothetical k-way splits (from the teaser); useful to compare cost models of merging.
 
 <h4>Additional Resources</h4>
 
