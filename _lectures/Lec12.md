@@ -89,9 +89,58 @@ Our very own Jeep Kaewla has created the following video explainer of the LIS pr
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/buB-VifgeNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+### Relevent LeetCode Practice (by Tristan Yang)
 
+1. [LeetCode 509](https://leetcode.com/problems/fibonacci-number/) — Fibonacci Number *(Easy)*
+    - **Relevance:** Mirrors the classic example: naive recursion for Fibonacci runs in exponential time ($\approx \Theta(\varphi^n)$ with the golden ratio $\varphi$), but with memoization or bottom-up DP it becomes linear time $O(n)$. (Also note: if we consider the size of Fibonacci numbers, computing $F(n)$ exactly involves handling $\Theta(n)$-digit integers, but here we focus on the recurrence cost.)
+    - **ECE 374 Process:** Start from the definition $F(n) = F(n-1) + F(n-2)$ with base cases $F(0)=0$, $F(1)=1$. First add memoization (store results in an array or map to avoid recomputation), then convert to an iterative bottom-up solution using two variables (for $O(1)$ space).
+    - **Resource:** LeetCode official editorial for Fibonacci.
+    - **Takeaway:** Memoization collapses an exponential recursion into linear work; converting to tabulation (bottom-up) removes recursion overhead entirely.
 
-&nbsp;
+2. [LeetCode 70](https://leetcode.com/problems/climbing-stairs/) — Climbing Stairs *(Easy)*
+    - **Relevance:** Same Fibonacci-type recurrence (each state depends on the two previous states). It's a perfect small problem to practice three approaches: memoized recursion vs. bottom-up tabulation vs. an $O(1)$ space optimized DP.
+    - **ECE 374 Process:** Derive the recurrence $f(n) = f(n-1) + f(n-2)$ with base cases $f(0)=1$, $f(1)=1$ (if we interpret "one way" to stay at the ground step). Show a memoized $O(n)$ solution and then the equivalent iterative solution that uses two variables (previous two results) instead of an entire array.
+    - **Resource:** NeetCode explanation video.
+    - **Takeaway:** Identify the recurrence relation, then decide on memoization or table-filling. Optimize space if possible once you understand the dependency pattern.
+
+3. [LeetCode 198](https://leetcode.com/problems/house-robber/) — House Robber *(Medium)*
+    - **Relevance:** Corresponds to the lecture slide's "smart recursion" example. After defining subproblem optimal solutions, you get the recurrence: $dp[i] = \max(dp[i-1], dp[i-2] + a_i)$, where $a_i$ is the money at house $i$.
+    - **ECE 374 Process:** Define $dp[i]$ as the maximum amount that can be robbed from the first $i$ houses. You can derive the above recurrence by deciding to rob or skip the $i$-th house. Implement via memoized recursion or iteratively fill an array from $i=1$ to $n$. Finally, optimize to $O(1)$ space by only keeping the last two values ($dp[i-1]$ and $dp[i-2]$).
+    - **Resource:** NeetCode video on House Robber.
+    - **Takeaway:** Dynamic Programming = define subproblems, establish recurrence with choices, set base cases, then compute in a safe order (recursively or iteratively). Space can often be compressed given the recurrence dependencies.
+
+**Supplemental Problems**
+
+- **[LeetCode 746](https://leetcode.com/problems/min-cost-climbing-stairs/) — Min Cost Climbing Stairs**  
+  Another Fibonacci-style 1D DP; good practice to implement with memoization and then optimize to $O(1)$-space tabulation.
+
+- **[LeetCode 91](https://leetcode.com/problems/decode-ways/) — Decode Ways**  
+  Recurrence with branching (each digit or pair of digits can form a letter if valid). A naive recursion is exponential, but memoization/DP trims it to polynomial time.
+
+- **[LeetCode 322](https://leetcode.com/problems/coin-change/) — Coin Change**  
+  A classic unbounded coin change: define $dp[x] = 1 + \min_{c \in \text{coins}} dp[x-c]$. Perfect for comparing a top-down memo vs bottom-up implementation.
+
+- **[LeetCode 518](https://leetcode.com/problems/coin-change-ii/) — Coin Change II**  
+  Count the number of ways to form an amount. Order of iteration (coins-first vs. amount-first) matters to avoid double counting permutations, a good lesson in table design.
+
+- **[LeetCode 62](https://leetcode.com/problems/unique-paths/) — Unique Paths**  
+  A 2D DP with simple dependencies (each cell = sum of top and left). Good introduction to filling a table and even doing it in-place or with $O(n)$ space by reusing a single row/column.
+
+- **[LeetCode 63](https://leetcode.com/problems/unique-paths-ii/) — Unique Paths II**  
+  Same grid DP but with obstacles. Reinforces careful handling of base cases and blocked cells (if an obstacle is present, that path count is 0).
+
+- **[LeetCode 931](https://leetcode.com/problems/minimum-falling-path-sum/) — Minimum Falling Path Sum**  
+  A row-by-row DP in a matrix; shows local transitions (from directly above or above-left/right) and how to do in-place updates or use a rolling array to save space.
+
+- **[LeetCode 583](https://leetcode.com/problems/delete-operation-for-two-strings/) — Delete Operation for Two Strings**  
+  Effectively the Longest Common Subsequence (LCS) problem in disguise (minimum deletions = total length of strings - 2 * LCS length). Good practice to set up a 2D DP and relate it to a simpler 1D interpretation.
+
+- **[LeetCode 139](https://leetcode.com/problems/word-break/) — Word Break**  
+  A 1D DP over string prefixes; can be solved via top-down recursion with memo or bottom-up iteration checking each possible split. (Transforms an exponential brute force into $O(n^2)$.)
+
+- **[LeetCode 213](https://leetcode.com/problems/house-robber-ii/) — House Robber II**  
+  Like House Robber, but houses are in a circle (first and last are adjacent). Reduce it to two linear problems (rob 1..n-1, or rob 2..n) and take the max. Good practice in modeling constraints by splitting into multiple DP runs.
+
 <h4>Additional Resources</h4>
 
 * Textbooks 
