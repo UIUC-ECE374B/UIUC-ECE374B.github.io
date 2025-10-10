@@ -51,15 +51,15 @@ quiz07:
   num: 7
   topic: Binary Search 
   date: 2025-10-03
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q07.pdf
+  solutions-link: materials/quizzes/Q07-sols.pdf   
 
 quiz08: 
   num: 8
   topic: Divide and Conquer 
   date: 2025-10-08
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q08.pdf
+  solutions-link: materials/quizzes/Q08-sols.pdf    
 
 quiz09: 
   num: 9
