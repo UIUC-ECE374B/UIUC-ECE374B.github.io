@@ -65,8 +65,8 @@ quiz09:
   num: 9
   topic: Backtracking 
   date: 2025-10-10
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q09.pdf
+  solutions-link: materials/quizzes/Q09-sols.pdf    
 
 quiz10: 
   num: 10
