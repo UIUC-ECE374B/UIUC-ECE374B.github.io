@@ -12,8 +12,8 @@ MT1:
   samp_exam4_sol: /materials/exams/samples/midterm1-sol-fa24.pdf
   skillset: materials/exams/mt_1_skillset.pdf
   cheat_sheet: materials/exams/main_MT1.pdf
-  exam_questions: #materials/exams/midterm1-vf-fa23.pdf
-  exam_solutions: #materials/exams/midterm1-vf-fa23-sol.pdf
+  exam_questions: materials/exams/midterm1-fa25.pdf
+  exam_solutions: materials/exams/midterm1-fa25-sol.pdf
 
 MT2: 
   num: 2
