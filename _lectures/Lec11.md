@@ -161,6 +161,46 @@ algorithm decides where to place the queen.
 have an increasing order of value. For each input element, the algorithm decides whether
 to include it in the output sequence or not.
 
+### Relevent LeetCode Practice (by Tristan Yang)
+
+1. [LeetCode 51](https://leetcode.com/problems/n-queens/) — N-Queens *(Hard)*
+    - **Relevance:** Exactly the slide's example of backtracking: search tree DFS over rows, with pruning on columns and diagonals. Mirrors the typical generate_permutations + isValid approach for the N-Queens solution.
+    - **ECE 374 Process:** Place queens row by row; maintain column, diag1, diag2 occupancy (using boolean arrays or bitmasks) to prune invalid moves. Use recursion to explore valid placements and backtrack upon conflicts. Analyze the exponential state-space and how pruning significantly reduces it.
+    - **Resource:** NeetCode video on N-Queens (bitmask optimization approach).
+    - **Takeaway:** Backtracking = DFS over the state space with constraints to prune branches early.
+
+2. [LeetCode 36](https://leetcode.com/problems/valid-sudoku/) — Valid Sudoku *(Medium)*
+    - **Relevance:** A constraint-checking problem; illustrates the "isValid" predicate central to backtracking, though here we mostly validate a full board rather than generate. We ensure each row, column, and 3×3 box meets constraints using sets or bitmasks.
+    - **ECE 374 Process:** You can approach this as a backtracking search: precompute row/col/box usage masks; choose the next empty cell (optionally using MRV heuristic for fewest possible values), try a digit, update masks, recurse, and backtrack if a contradiction arises. (Alternatively, just validate an already-filled board by checking constraints, without full search.)
+    - **Resource:** Errichto's Sudoku backtracking video.
+    - **Takeaway:** Efficient constraint checking (e.g. via bitmasks) enables pruning and is key to backtracking solutions.
+
+3. [LeetCode 300](https://leetcode.com/problems/longest-increasing-subsequence/) — Longest Increasing Subsequence *(Medium)*
+    - **Relevance:** Demonstrates turning an exponential brute force into a polynomial solution by memoization. Naively, LIS via brute-force subsequence generation is $O(2^n)$ (exponential). A smarter recursive approach that builds LIS ending at each element is still $O(2^n)$ without memoization. With memoization or dynamic programming, it becomes $O(n^2)$ (and with a greedy+binary-search optimization, $O(n \log n)$).
+    - **ECE 374 Process:** Define the subproblem: $dp[i] = \max\{1 + dp[j] : j < i, a_j < a_i\}$ with base case $dp[i] = 1$. Memoize the recursive solution or fill an array iteratively. Optionally, discuss the patience sorting method for $O(n \log n)$.
+    - **Resource:** NeetCode video on LIS (DP and patience sorting).
+    - **Takeaway:** Memoization (or DP) can collapse an exponential recursion into a polynomial-time solution.
+
+**Supplemental Problems**
+
+- **[LeetCode 22](https://leetcode.com/problems/generate-parentheses/) — Generate Parentheses**  
+  Classic backtracking with a validity constraint (cannot add more ) than ( at any point). Explores a $2^n$-size state tree with pruning.
+
+- **[LeetCode 78](https://leetcode.com/problems/subsets/) — Subsets**  
+  Pure backtracking (include/exclude each element), generating $2^n$ subset solutions, illustrating the power set exploration like the naive LIS approach.
+
+- **[LeetCode 90](https://leetcode.com/problems/subsets-ii/) — Subsets II**  
+  Backtracking with duplicate-handling: sort the input and skip consecutive duplicates to avoid repeat subsets.
+
+- **[LeetCode 46](https://leetcode.com/problems/permutations/) — Permutations**  
+  Backtracking by building permutations position by position (tree of factorial size), just like the slide's permutation generator example.
+
+- **[LeetCode 47](https://leetcode.com/problems/permutations-ii/) — Permutations II**  
+  Adds duplicate pruning on top of permutations (e.g. skip over used duplicate numbers) reinforcing the use of an isValid-style check.
+
+- **[LeetCode 77](https://leetcode.com/problems/combinations/) — Combinations**  
+  Backtracking to choose k out of n (depth-first generation), with an early stopping optimization (stop exploring when not enough elements are left to reach k).
+
 <h4>Additional Resources</h4>
 
 * Textbooks 
