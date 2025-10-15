@@ -69,6 +69,9 @@ example: $T(n) = 2T(n/2)+cn$ split into 2 after each node but the running time c
 
 example: $T(n) = 2T(n/2) + cn$ can be rewritten as $T(n) = 2(2T(n/4)+cn/2)+cn = 4T(n/4)+cn+cn$. This replacement can occur $log(n)$ times because $n$ divides by 2 each time. Every time the replacement occurs an extra $cn$ is added. This means the eventual expansion will be $T(n) = cn+...cn = cnlog(n)$ which has a running time of $O(nlog(n))$.
 
+- Master Theorem for recurrence of the form $T(n) = r T(n/c) + f(n)$
+  - [Why does the master theorem work? by CA Ajitesh Dasaratha](/materials/extra_content/Master_theorem_writeoff.pdf)
+
 ### Relevent LeetCode Practice (by Tristan Yang)
 
 1. [LeetCode 912](https://leetcode.com/problems/sort-an-array/) — Sort an Array *(Medium)*
@@ -135,7 +138,7 @@ example: $T(n) = 2T(n/2) + cn$ can be rewritten as $T(n) = 2(2T(n/4)+cn/2)+cn = 
 
 - [Sariel's Lecture 10](https://courses.engr.illinois.edu/cs374/fa2020/lec_prerec/) 
 - [Great Reducible video on Towers of Hanoi](https://www.youtube.com/watch?v=rf6uf3jNjbo)
-* [Sariel's Lecture 10](https://www.youtube.com/watch?v=vBl8JSdKrvw&list=PLaEwgrahG-LpCO04ip9-KfGIYSr1YGbwE&pp=iAQB)
+- [Sariel's Lecture 10](https://www.youtube.com/watch?v=vBl8JSdKrvw&list=PLaEwgrahG-LpCO04ip9-KfGIYSr1YGbwE&pp=iAQB)
 
 
 

@@ -32,6 +32,8 @@ Creating new content is *difficult* and usually a task for me and the TAs. Howev
     - Manuscript: [pdf](/materials/extra_content/NonReg_PrimeLang_Ajitesh.pdf)  
   - [Why do all comparison-based sorting algorithms have to run in O(n log n)? by CA Ajitesh Dasaratha](/lectures/Lec09.html)
     - Manuscript: [pdf](/materials/extra_content/Sorting_Lower_Bound_Ajitesh.pdf)
+  - [Why does the master theorem work? by CA Ajitesh Dasaratha](/lectures/Lec09.html)
+    - Manuscript: [pdf](/materials/extra_content/Master_theorem_writeoff.pdf)
   - Author: Ajitesh Dasaratha
 
 - [Five-strong-bicolor proof](/lectures/Lec21.html)
