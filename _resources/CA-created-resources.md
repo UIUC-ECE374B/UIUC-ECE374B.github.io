@@ -17,7 +17,7 @@ Creating new content is *difficult* and usually a task for me and the TAs. Howev
 
 
 - Reference to LeetCode problems in algorithms lectures notes: 
-  - [Lec9](/lectures/Lec09.html)
+  - [Lec9](/lectures/Lec09.html), [Lec10](/lectures/Lec10.html), [Lec11](/lectures/Lec11.html), [Lec12](/lectures/Lec12.html), [Lec13](/lectures/Lec13.html), [Lec14](/lectures/Lec14.html), [Lec15](/lectures/Lec15.html), [Lec16](/lectures/Lec16.html), [Lec17](/lectures/Lec17.html), [Lec18](/lectures/Lec18.html)    
   - Author: Tristan Yang
 
 - Extra notes one course concepts: 
