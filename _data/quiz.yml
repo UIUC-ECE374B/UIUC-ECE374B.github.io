@@ -2,78 +2,78 @@ quiz00:
   num: 0
   topic: Languages 
   date: 2025-08-29
-  questions-link: materials/quizzes/Q0.pdf
-  solutions-link: materials/quizzes/Q0-sols.pdf
+  questions-link: materials/quizzes/Q00.pdf
+  solutions-link: materials/quizzes/Q00-sol.pdf
 
 quiz01: 
   num: 1
   topic: Regular expressions 
   date: 2025-09-03
   questions-link: materials/quizzes/Q01.pdf
-  solutions-link: materials/quizzes/Q01-sols.pdf
+  solutions-link: materials/quizzes/Q01-sol.pdf
 
 quiz02: 
   num: 2
   topic: DFAs 
   date: 2025-09-05
   questions-link: materials/quizzes/Q02.pdf
-  solutions-link: materials/quizzes/Q02-sols.pdf 
+  solutions-link: materials/quizzes/Q02-sol.pdf 
 
 quiz03: 
   num: 3
   topic: Language transforms 
   date: 2025-09-10
   questions-link: materials/quizzes/Q03.pdf
-  solutions-link: materials/quizzes/Q03-sols.pdf
+  solutions-link: materials/quizzes/Q03-sol.pdf
 
 quiz04: 
   num: 4
   topic: Reg machine conversion 
   date: 2025-09-12
   questions-link: materials/quizzes/Q04.pdf
-  solutions-link: materials/quizzes/Q04-sols.pdf 
+  solutions-link: materials/quizzes/Q04-sol.pdf 
 
 quiz05: 
   num: 5
   topic: Proving non-regularity 
   date: 2025-09-17
   questions-link: materials/quizzes/Q05.pdf
-  solutions-link: materials/quizzes/Q05-sols.pdf  
+  solutions-link: materials/quizzes/Q05-sol.pdf  
 
 quiz06: 
   num: 6
   topic: Context free grammars 
   date: 2025-09-19
   questions-link: materials/quizzes/Q06.pdf
-  solutions-link: materials/quizzes/Q06-sols.pdf   
+  solutions-link: materials/quizzes/Q06-sol.pdf   
 
 quiz07: 
   num: 7
   topic: Binary Search 
   date: 2025-10-03
   questions-link: materials/quizzes/Q07.pdf
-  solutions-link: materials/quizzes/Q07-sols.pdf   
+  solutions-link: materials/quizzes/Q07-sol.pdf   
 
 quiz08: 
   num: 8
   topic: Divide and Conquer 
   date: 2025-10-08
   questions-link: materials/quizzes/Q08.pdf
-  solutions-link: materials/quizzes/Q08-sols.pdf    
+  solutions-link: materials/quizzes/Q08-sol.pdf    
 
 quiz09: 
   num: 9
   topic: Backtracking 
   date: 2025-10-10
   questions-link: materials/quizzes/Q09.pdf
-  solutions-link: materials/quizzes/Q09-sols.pdf    
+  solutions-link: materials/quizzes/Q09-sol.pdf    
 
 quiz10: 
   num: 10
   topic: Dynamic Programming I 
   date: 2025-10-15
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q10.pdf
+  solutions-link: materials/quizzes/Q10-sol.pdf    
 
 quiz11: 
   num: 11
