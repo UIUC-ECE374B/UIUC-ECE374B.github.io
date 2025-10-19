@@ -79,8 +79,8 @@ quiz11:
   num: 11
   topic: Dynamic Programming II 
   date: 2025-10-17
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q11.pdf
+  solutions-link: materials/quizzes/Q11-sol.pdf    
 
 quiz12: 
   num: 12
