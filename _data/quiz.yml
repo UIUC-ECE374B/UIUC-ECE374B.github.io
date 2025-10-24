@@ -86,8 +86,8 @@ quiz12:
   num: 12
   topic: Graph Modeling I
   date: 2025-10-22
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q12.pdf
+  solutions-link: materials/quizzes/Q12-sol.pdf    
 
 quiz13: 
   num: 13
