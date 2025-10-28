@@ -93,8 +93,8 @@ quiz13:
   num: 13
   topic: Graph Modleing II 
   date: 2025-10-24
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q13.pdf
+  solutions-link: materials/quizzes/Q13-sol.pdf    
 
 quiz14: 
   num: 14
