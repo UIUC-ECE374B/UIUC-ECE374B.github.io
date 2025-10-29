@@ -23,6 +23,8 @@ Creating new content is *difficult* and usually a task for me and the TAs. Howev
 - Extra notes one course concepts: 
   - [Context-sensitive vs. context-free grammars by CA Ranjani Ramesh](/lectures/Lec07.html)
     - Manuscript: [pdf](/materials/extra_content/CSGvsCFG_Ranjani.pdf)
+  - [Arithmetico–Geometric Series by CA Ranjani Ramesh](/lectures/Lec09.html)
+    - Manuscript: [pdf](/materials/extra_content/Ranjani_Geometric_Series.pdf)  
   - Author: Ranjani Ramesh
 
 - Several in depth problem analyses: 

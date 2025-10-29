@@ -71,6 +71,7 @@ example: $T(n) = 2T(n/2) + cn$ can be rewritten as $T(n) = 2(2T(n/4)+cn/2)+cn = 
 
 - Master Theorem for recurrence of the form $T(n) = r T(n/c) + f(n)$
   - [Why does the master theorem work? by CA Ajitesh Dasaratha](/materials/extra_content/Master_theorem_writeoff.pdf)
+- With many of these recurrences, geometric series identities come up frequently. [CA Ranjani Ramesh wrote a good refresher on geometric series and how they present themselves in recurrences](/materials/extra_content/Ranjani_Geometric_Series.pdf)
 
 ### Relevent LeetCode Practice (by Tristan Yang)
 
