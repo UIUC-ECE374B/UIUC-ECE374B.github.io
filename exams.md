@@ -150,6 +150,7 @@ title: Exams
 
 </table>
 
+Redo exams will occur during **final exam period (Monday 12/15/2025 1:30-4:30PM)**.
 
 
 &nbsp;
