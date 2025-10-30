@@ -171,8 +171,10 @@ Our very own Hamza Husain has dedicated himself to giving you even more DP probl
     * Chapter 14 - Dynamic Programming 
     * Chapter 14.4 - Longest Common Subsequence 
 * [Sariel's Lecture 14](https://www.youtube.com/watch?v=o4gOGiBXT2g&list=PLaEwgrahG-Lq_ux1_o3TqFX-vWXh0uLLK&pp=iAQB) 
-* Edit distance is also referred to as [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
+* Other interesting reads: 
+  * Edit distance is also referred to as [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance)
     * Closely related is the [Needleman-Wunsch Algorithm](https://en.wikipedia.org/wiki/Needleman%E2%80%93Wunsch_algorithm)
+  * [What are the algorithms behind the Ctrl+F function? by CA Ajitesh Dasaratha](/materials/extra_content/CtrlF_workings_Ajitesh.pdf)
 
 
 

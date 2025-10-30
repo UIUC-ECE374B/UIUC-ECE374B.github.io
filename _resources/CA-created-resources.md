@@ -36,6 +36,8 @@ Creating new content is *difficult* and usually a task for me and the TAs. Howev
     - Manuscript: [pdf](/materials/extra_content/Sorting_Lower_Bound_Ajitesh.pdf)
   - [Why does the master theorem work? by CA Ajitesh Dasaratha](/lectures/Lec09.html)
     - Manuscript: [pdf](/materials/extra_content/Master_theorem_writeoff.pdf)
+  - [What are the algorithms behind the Ctrl+F function? by CA Ajitesh Dasaratha](/lectures/Lec13.html)
+    - Manuscript: [pdf](/materials/extra_content/CtrlF_workings_Ajitesh.pdf)
   - Author: Ajitesh Dasaratha
 
 - [Five-strong-bicolor proof](/lectures/Lec21.html)
