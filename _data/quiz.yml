@@ -100,15 +100,15 @@ quiz14:
   num: 14
   topic: Shortest Paths I 
   date: 2025-10-29
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q14.pdf
+  solutions-link: materials/quizzes/Q14-sol.pdf    
 
 quiz15: 
   num: 15
   topic: Shortest Paths II 
   date: 2025-10-31
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q15.pdf
+  solutions-link: materials/quizzes/Q15-sol.pdf    
 
 quiz16: 
   num: 16
