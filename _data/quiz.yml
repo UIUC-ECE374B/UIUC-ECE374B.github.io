@@ -91,7 +91,7 @@ quiz12:
 
 quiz13: 
   num: 13
-  topic: Graph Modleing II 
+  topic: Graph Modeling II 
   date: 2025-10-24
   questions-link: materials/quizzes/Q13.pdf
   solutions-link: materials/quizzes/Q13-sol.pdf    
