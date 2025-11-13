@@ -114,8 +114,8 @@ quiz16:
   num: 16
   topic: Reductions 
   date: 2025-11-12
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q16.pdf
+  solutions-link: materials/quizzes/Q16-sol.pdf    
 
 quiz17: 
   num: 17
