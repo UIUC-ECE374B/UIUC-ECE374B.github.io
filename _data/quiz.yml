@@ -121,8 +121,8 @@ quiz17:
   num: 17
   topic: NP-completeness I 
   date: 2025-11-14
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q17.pdf
+  solutions-link: materials/quizzes/Q17-sol.pdf    
 
 quiz18: 
   num: 18
