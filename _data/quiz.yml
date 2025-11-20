@@ -128,8 +128,8 @@ quiz18:
   num: 18
   topic: NP-completeness II 
   date: 2025-11-19
-  questions-link: 
-  solutions-link:  
+  questions-link: materials/quizzes/Q18.pdf
+  solutions-link: materials/quizzes/Q18-sol.pdf     
 
 quiz19: 
   num: 19
