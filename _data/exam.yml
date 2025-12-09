@@ -46,8 +46,8 @@ MT3:
   samp_exam4_sol: /materials/exams/samples/midterm3-sol-fa24.pdf
   skillset: materials/exams/mt_3_skillset.pdf
   cheat_sheet: materials/exams/main_MT3.pdf
-  exam_questions: #materials/exams/midterm3-vf-fa23.pdf
-  exam_solutions: #materials/exams/midterm3-vf-fa23-sol.pdf
+  exam_questions: materials/exams/midterm3-fa25.pdf
+  exam_solutions: materials/exams/midterm3-fa25-sol.pdf
 
 # Final: 
 #   num: 4
