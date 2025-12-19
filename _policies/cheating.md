@@ -44,6 +44,7 @@ There are only two exceptions to this rule. **You are not required to cite the f
 - The default penalty for cheating on an exam is *two full letter grades off your final course grade or automatic failure.*
 - The default penalty for cheating on an attendance sheet (should we choose to collect attendance) is *a full letter grade off your final course grade*.
 - The default penalty for cheating on multiple assignments in an F in the course. Doesn't matter if this is your first violation or your third. A consistent pattern of cheating in the course if grounds for immediate failure. 
+- If the cheating was on an assignment that assignment would be graded a zero and used in final grade calculation regardless of drops. If it was on a exam, the exam would be entered as a zero and there would be no possibilities for redo grades. 
 - We reserve the right to register FAIR violations at any point in the semester (even once the semester is over). FAIR violations are time-consuming for the staff so multiple cheating offenses could be included in a single violation. 
 - The course staff reserves the right to change the penalties however they see fit. At the end of the day cheatign offenses are varied and the staff requires flexibility to make sure that the penalties correspond to the offenses. 
 
