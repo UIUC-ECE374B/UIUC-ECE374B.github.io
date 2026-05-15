@@ -1,5 +1,5 @@
 ---
-title: Lecture 1 - Languages and regular expression
+title: Lecture 1 - Languages and regular expressions
 placeholder: false
 back-color: faffff
 card-link: LecLink01
@@ -13,7 +13,7 @@ deliverydate: 2025-08-28
 link-slides: /materials/lecture_slides/lec1.pdf
 link-scribbles: /materials/lecture_slides/lec1_scribbles_fa25.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_olu023es/385953912
-pre-recording: 
+pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr1AmkfSmhhXkaodw64FBo4L&si=jMC-h_VamltvGO9R
 ---
 
 #### Strings and Languages
