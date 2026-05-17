@@ -5,7 +5,7 @@ hw1:
   assigned-date: 2025-08-29
   due-date: 2025-09-08
   questions-link: /materials/homeworks/hw1.pdf
-  solutions-link: /materials/homeworks/hw1_sol.pdf
+  solutions-link: /materials/homeworks/hw1.pdf
 
 hw2: 
   num: 2
@@ -14,7 +14,7 @@ hw2:
   assigned-date: 2025-09-05
   due-date: 2025-09-15
   questions-link: /materials/homeworks/hw2.pdf
-  solutions-link: /materials/homeworks/hw2_sol.pdf
+  solutions-link: /materials/homeworks/hw2.pdf
 
 hw3: 
   num: 3
@@ -23,7 +23,7 @@ hw3:
   assigned-date: 2025-09-12
   due-date: 2025-09-22
   questions-link: /materials/homeworks/hw3.pdf
-  solutions-link: /materials/homeworks/hw3_sol.pdf
+  solutions-link: /materials/homeworks/hw3.pdf
 
 hw4: 
   num: 4
@@ -32,7 +32,7 @@ hw4:
   assigned-date: 2025-10-03
   due-date: 2025-10-13
   questions-link: /materials/homeworks/hw4.pdf
-  solutions-link: /materials/homeworks/hw4_sol.pdf
+  solutions-link: /materials/homeworks/hw4.pdf
 
 hw5: 
   num: 5
@@ -41,7 +41,7 @@ hw5:
   assigned-date: 2025-10-10
   due-date: 2025-10-20
   questions-link: /materials/homeworks/hw5.pdf
-  solutions-link: /materials/homeworks/hw5_sol.pdf
+  solutions-link: /materials/homeworks/hw5.pdf
 
 hw6: 
   num: 6
@@ -50,7 +50,7 @@ hw6:
   assigned-date: 2025-10-17
   due-date: 2025-10-27
   questions-link: /materials/homeworks/hw6.pdf
-  solutions-link: /materials/homeworks/hw6_sol.pdf
+  solutions-link: /materials/homeworks/hw6.pdf
 
 hw7: 
   num: 7
@@ -59,7 +59,7 @@ hw7:
   assigned-date: 2025-10-24
   due-date: 2025-11-03
   questions-link: /materials/homeworks/hw7.pdf
-  solutions-link: /materials/homeworks/hw7_sol.pdf
+  solutions-link: /materials/homeworks/hw7.pdf
 
 hw8: 
   num: 8
@@ -68,7 +68,7 @@ hw8:
   assigned-date: 2025-11-07
   due-date: 2025-11-17
   questions-link: /materials/homeworks/hw8.pdf
-  solutions-link: /materials/homeworks/hw8_sol.pdf
+  solutions-link: /materials/homeworks/hw8.pdf
 
 hw9: 
   num: 9
@@ -77,4 +77,4 @@ hw9:
   assigned-date: 2025-11-14
   due-date: 2025-12-01
   questions-link: /materials/homeworks/hw9.pdf
-  solutions-link: /materials/homeworks/hw9_sol.pdf
+  solutions-link: /materials/homeworks/hw9.pdf
