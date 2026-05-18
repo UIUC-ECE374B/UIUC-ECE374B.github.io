@@ -2,7 +2,7 @@
 layout: default
 title: Don't cheat
 
-description: Post about the the course integrity policy.
+description: Post about the course integrity policy.
 ---
 
 This policy statement is unfortunately necessary, thanks to the actions of a tiny minority of students. If you have any questions or concerns, please don't hesitate to ask in lecture, in lab, during office hours, on Piazza, or by email.
@@ -38,20 +38,8 @@ There are only two exceptions to this rule. **You are not required to cite the f
 - Official course materials (lectures, lecture notes, homework and exam solutions *from this semester*)
 - Sources for prerequisite material (which we assume you already know by heart)
 
-#### Penalties
-
-- The default penalty for cheating on a quiz/homework problem is *1-2 full letter grade(s) off your final course grade*.
-- The default penalty for cheating on an exam is *two full letter grades off your final course grade or automatic failure.*
-- The default penalty for cheating on an attendance sheet (should we choose to collect attendance) is *a full letter grade off your final course grade*.
-- The default penalty for cheating on multiple assignments in an F in the course. Doesn't matter if this is your first violation or your third. A consistent pattern of cheating in the course if grounds for immediate failure. 
-- If the cheating was on an assignment that assignment would be graded a zero and used in final grade calculation regardless of drops. If it was on a exam, the exam would be entered as a zero and there would be no possibilities for redo grades. 
-- We reserve the right to register FAIR violations at any point in the semester (even once the semester is over). FAIR violations are time-consuming for the staff so multiple cheating offenses could be included in a single violation. 
-- The course staff reserves the right to change the penalties however they see fit. At the end of the day cheatign offenses are varied and the staff requires flexibility to make sure that the penalties correspond to the offenses. 
-
-Don't be an idiot. Just do the work.
-
 **LLMs not allowed**
-LLMs are strictly forbidden from any course assignments. No it is not ok to use them for inspiration. There is a difference between google and ChatGPT. There is ample evidence that shows LLM usage dimishes learning: 
+LLMs are strictly forbidden from any course assignments. No it is not ok to use them for inspiration. There is a difference between google and ChatGPT. There is ample evidence that shows LLM usage diminishes learning: 
 
 [1] [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/pdf/2506.08872v1)
 
@@ -62,6 +50,19 @@ I'm sure many students will vehemently disagree with me and say LLMs have helped
 [3] [Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom](https://www.pnas.org/doi/10.1073/pnas.1821936116)
 
 But maybe I'm wrong. If you truly believe LLMs improve learning outcomes, I would be happy to help you set up and perform a research project that gets quantifiable metrics regarding this issue. Till then, I'm just forbidding it. Widespread LLM usage is a big reason why I have decided to remove homeworks from the course but we got to keep marching forward. 
+
+#### Penalties
+
+- The default penalty for cheating on a quiz/homework problem is *1-2 full letter grade(s) off your final course grade*.
+- The default penalty for cheating on an exam is *two full letter grades off your final course grade or automatic failure.*
+- The default penalty for cheating on an attendance sheet (should we choose to collect attendance) is *a full letter grade off your final course grade*.
+- The default penalty for cheating on multiple assignments is an F in the course. Doesn't matter if this is your first violation or your third. A consistent pattern of cheating in the course is grounds for immediate failure. 
+- If the cheating was on an assignment, that assignment would be graded a zero and used in the final grade calculation, regardless of drops. If it were on an exam, the exam would be entered as a zero and there would be no possibilities for redo grades. 
+- We reserve the right to register FAIR violations at any point in the semester (even once the semester is over). FAIR violations are time-consuming for the staff so multiple cheating offenses could be included in a single violation. 
+- The course staff reserves the right to change the penalties, however they see fit. At the end of the day cheatign offenses are varied and the staff requires flexibility to make sure that the penalties correspond to the offenses. 
+
+Don't be an idiot. Just do the work.
+
 
 **Credit** This webpage was modified from previous [semester(s)](https://courses.engr.illinois.edu/cs374/fa2020/integrity.html).
 
