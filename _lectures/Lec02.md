@@ -13,7 +13,7 @@ deliverydate: 2025-09-02
 link-slides: /materials/lecture_slides/lec2.pdf
 link-scribbles: /materials/lecture_slides/lec2_scribbles_fa25.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_i369n6vi/385953912
-pre-recording: 
+pre-recording: https://youtube.com/playlist?list=PLmCFrqjQFNr1wFqyzXpB7m6lCxIQwLXiu&si=7_rK8rFXEXOlyj6D
 ---
 
 ### Deterministic Finite Automata
