@@ -13,7 +13,7 @@ deliverydate: 2025-11-20
 link-slides: /materials/lecture_slides/lec23.pdf
 link-scribbles: /materials/lecture_slides/lec23_scribbles_fa25.pdf
 link-recording: https://mediaspace.illinois.edu/media/t/1_l65dmhpz
-pre-recording: 
+pre-recording: https://youtube.com/playlist?list=PLBZF2DzEGM80&si=gwSZcoBtj1kD5T3x
 ---
 
 # Decidability
